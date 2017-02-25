@@ -1,0 +1,33 @@
+﻿<c:Page10x
+    x:Class="aPowerBox.View.StartView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:aPowerBox.View" xmlns:c="using:Albert.Flex.Runtime"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource AccentBrush4}">
+		<ScrollViewer>
+		<StackPanel>
+			<TextBlock FontSize="35"  TextAlignment="Center" >
+				<Run FontSize="45" FontWeight="Black">aPowerBox</Run>
+			
+				<LineBreak />
+				<Run FontWeight="Bold">Quick  Launch </Run>
+				
+			</TextBlock>
+			<HyperlinkButton ToolTipService.ToolTip="Character Lab" Tag="character" Content="Character Lab" />
+			<HyperlinkButton ToolTipService.ToolTip="Map Lab"  Tag="map" Content="Map Lab" />
+			<HyperlinkButton ToolTipService.ToolTip="PDF Lab"  Tag="pdf" Content="PDF Lab" />
+			<HyperlinkButton ToolTipService.ToolTip="Sketch Lab"  Tag="sketch" Content="Sketch Lab" />
+
+			<HyperlinkButton ToolTipService.ToolTip="Theme Lab"  Tag="theme" Content="Theme Lab" />
+			<HyperlinkButton ToolTipService.ToolTip="WebDev Lab"  Tag="web" Content="WebDev Lab" />
+
+			<HyperlinkButton ToolTipService.ToolTip="Writer Lab"  Tag="writer" Content="Writer Lab" />
+			<local:QuickNote />
+		</StackPanel>
+		</ScrollViewer>
+    </Grid>
+</c:Page10x>
