@@ -9,6 +9,5 @@ C:\AMB\aSoftware\aCore\aFlexCore\AlbertFlex\obj\Debug\AlbertFlex.dll
 C:\AMB\aSoftware\aCore\aFlexCore\AlbertFlex\obj\Debug\AlbertFlex.pdb
 C:\AMB\aSoftware\aCore\aPowerBox\AlbertFlex\bin\Debug\AlbertFlex.dll
 C:\AMB\aSoftware\aCore\aPowerBox\AlbertFlex\bin\Debug\AlbertFlex.pdb
-C:\AMB\aSoftware\aCore\aPowerBox\AlbertFlex\obj\Debug\AlbertFlex.csprojResolveAssemblyReference.cache
 C:\AMB\aSoftware\aCore\aPowerBox\AlbertFlex\obj\Debug\AlbertFlex.dll
 C:\AMB\aSoftware\aCore\aPowerBox\AlbertFlex\obj\Debug\AlbertFlex.pdb

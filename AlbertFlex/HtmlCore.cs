@@ -92,7 +92,7 @@
 			//Create scripts 
 			_scripts?.ForEach((i) =>
 			{
-				script += ConvertCssTag(i);
+				script += ConvertScriptTag(i);
 			});
 
 			//Spit out an html document 

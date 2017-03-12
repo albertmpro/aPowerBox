@@ -7,8 +7,23 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
-    </Grid>
+	<Grid Background="{ThemeResource AccentBrush4}">
+		<Grid.RowDefinitions>
+			<RowDefinition  Height="35" />
+			<RowDefinition />
+		</Grid.RowDefinitions>
+		
+		<Pivot x:ConnectionId='1' x:Name="pivot" Grid.Row="1" >
+			<PivotItem Header="Banner">
+				<local:BannerMaker x:ConnectionId='3' x:Name="banner"/>
+			</PivotItem>
+			<PivotItem Header="WordPress Theme">
+				<local:WPTheme x:ConnectionId='2' x:Name="theme" />
+			</PivotItem>
+			<PivotItem Header="WordPres Plugin">
+				<local:WPPlug />
+			</PivotItem>
+		</Pivot>
+	</Grid>
 </Page>
 

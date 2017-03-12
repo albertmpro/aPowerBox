@@ -1,3 +1,4 @@
+C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\bin\x86\Debug\PDFViewer.xbf
 C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\bin\x86\Debug\Themes\Generic.xbf
 C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\bin\x86\Debug\AlbertRun.xr.xml
 C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\bin\x86\Debug\AlbertRun.dll
@@ -6,8 +7,12 @@ C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\bin\x86\Debug\AlbertRun.pri
 C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\bin\x86\Debug\AlbertFlex.dll
 C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\bin\x86\Debug\AlbertFlex.pdb
 C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\obj\x86\Debug\AlbertRun.csprojResolveAssemblyReference.cache
+C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\obj\x86\Debug\PDFViewer.g.i.cs
+C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\obj\x86\Debug\PDFViewer.g.cs
 C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\obj\x86\Debug\PDFViewer.xaml
 C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\obj\x86\Debug\Themes\Generic.xaml
+C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\obj\x86\Debug\PDFViewer.xbf
 C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\obj\x86\Debug\Themes\Generic.xbf
 C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\obj\x86\Debug\XamlSaveStateFile.xml
 C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\obj\x86\Debug\AlbertRun.dll

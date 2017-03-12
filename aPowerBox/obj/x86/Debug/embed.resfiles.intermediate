@@ -1,10 +1,13 @@
 App.xbf
 MainPage.xbf
+View\BannerMaker.xbf
 View\CharacterLab.xbf
+View\LaunchHub.xbf
 View\MainView.xbf
 View\MapLab.xbf
 View\PDfView.xbf
 View\QuickNote.xbf
+View\QuickTheme.xbf
 View\SketchLab.xbf
 View\StartView.xbf
 View\StaticWeb.xbf

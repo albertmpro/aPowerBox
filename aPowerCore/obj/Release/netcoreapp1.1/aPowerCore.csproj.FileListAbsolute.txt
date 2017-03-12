@@ -1,0 +1,13 @@
+C:\AMB\aSoftware\aCore\aPowerBox\aPowerCore\bin\Release\netcoreapp1.1\aPowerCore.deps.json
+C:\AMB\aSoftware\aCore\aPowerBox\aPowerCore\bin\Release\netcoreapp1.1\aPowerCore.runtimeconfig.json
+C:\AMB\aSoftware\aCore\aPowerBox\aPowerCore\bin\Release\netcoreapp1.1\aPowerCore.runtimeconfig.dev.json
+C:\AMB\aSoftware\aCore\aPowerBox\aPowerCore\bin\Release\netcoreapp1.1\aPowerCore.dll
+C:\AMB\aSoftware\aCore\aPowerBox\aPowerCore\bin\Release\netcoreapp1.1\aPowerCore.pdb
+C:\AMB\aSoftware\aCore\aPowerBox\aPowerCore\obj\Release\netcoreapp1.1\aPowerCore.csprojResolveAssemblyReference.cache
+C:\AMB\aSoftware\aCore\aPowerBox\aPowerCore\obj\Release\netcoreapp1.1\aPowerCore.AssemblyInfo.cs
+C:\AMB\aSoftware\aCore\aPowerBox\aPowerCore\obj\Release\netcoreapp1.1\aPowerCore.dll
+C:\AMB\aSoftware\aCore\aPowerBox\aPowerCore\obj\Release\netcoreapp1.1\aPowerCore.pdb
+C:\AMB\aSoftware\aCore\aPowerBox\aPowerCore\bin\Release\netcoreapp1.1\AlbertFlex.dll
+C:\AMB\aSoftware\aCore\aPowerBox\aPowerCore\bin\Release\netcoreapp1.1\AlbertWin.dll
+C:\AMB\aSoftware\aCore\aPowerBox\aPowerCore\bin\Release\netcoreapp1.1\AlbertWin.pdb
+C:\AMB\aSoftware\aCore\aPowerBox\aPowerCore\bin\Release\netcoreapp1.1\AlbertFlex.pdb

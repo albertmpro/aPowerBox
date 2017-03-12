@@ -27,13 +27,13 @@
 <!--#endregion-->
 		
 		
-		<!--#region DataTemplates-->
+		<!--#region Data Templates-->
 
 		<DataTemplate x:Key="h1">
 			<TextBlock Text="{Binding }" FontSize="24" Foreground="White" />
 		</DataTemplate>
 		<DataTemplate x:Key="h2">
-			<TextBlock Text="{Binding }" FontSize="26" FontWeight="Light" Foreground="White" />
+			<TextBlock Text="{Binding }" FontSize="24" FontWeight="Light" Foreground="White" />
 			</DataTemplate>
 			<DataTemplate x:Key="h3">
 				<TextBlock Text="{Binding }" FontWeight="Black" FontSize="24" Foreground="White" />
@@ -45,6 +45,27 @@
 		
 		<!--#region UI-->
 
+		<Style TargetType="Pivot">
+			<Setter Property="HeaderTemplate" Value="{StaticResource h2}" />
+		</Style>
+
+		<Style TargetType="Hub">
+			<Setter Property="HeaderTemplate" Value="{StaticResource h2}" />
+		</Style>
+
+		<Style TargetType="HubSection">
+			<Setter Property="HeaderTemplate" Value="{StaticResource h3}" />
+		</Style>
+		<Style TargetType="c:CmdBar">
+			<Setter Property="Background" Value="{ThemeResource AccentBrush4}"/>
+			<Setter Property="Foreground" Value="White" />
+
+		</Style>
+
+		<Style TargetType="c:CmdButton">
+			<Setter Property="Foreground" Value="White" />
+		</Style>
+
 		<Style TargetType="c:PushButton">
 			<Setter Property="Background" Value="{StaticResource AccentBrush}" />
 			<Setter Property="BackgroundPointerOver" Value="{StaticResource AccentBrush2}" />
@@ -55,9 +76,19 @@
 			<Setter Property="FontWeight" Value="Light" />
 
 		</Style>
-		<Style TargetType="Pivot">
-			
+
+		<Style TargetType="c:OptionButton">
+			<Setter Property="Background" Value="{StaticResource AccentBrush}" />
+			<Setter Property="BackgroundPointerOver" Value="{StaticResource AccentBrush2}" />
+			<Setter Property="ForegroundPointerOver" Value="White" />
+			<Setter Property="BackgroundChecked" Value="{StaticResource AccentBrush3}" />
+			<Setter Property="BorderThickness" Value="1.4" />
+			<Setter Property="Width" Value="50" />
+			<Setter Property="Height" Value="50" />
+			<Setter Property="FontWeight" Value="Light" />
+
 		</Style>
+
 		<Style TargetType="SplitView">
 			<Setter Property="PaneBackground" Value="{StaticResource AccentBrush}" />
 			<Setter  Property="Background" Value="{StaticResource AccentBrush4}" />
@@ -66,28 +97,33 @@
 		<Style TargetType="c:HamburgerButton" >
 			<Setter Property="Foreground" Value="White" />
 			<Setter Property="ShowSymbol" Value="Collapsed" />
+			<Setter Property="FontWeight" Value="Light" />
 			<Setter Property="ShowImage" Value="Visible" />
 			<Setter Property="BackgroundPointerOver" Value="{StaticResource AccentBrush2}" />
 			
 			<Setter Property="BackgroundPressed" Value="{StaticResource AccentBrush4}" />
 		</Style>
-		<Style TargetType="c:OptionButton">
-			
-		</Style>
+		
+
+		
 		<Style TargetType="HyperlinkButton">
 			<Setter Property="Foreground" Value="White" />
 			<Setter Property="FontSize" Value="24" />
 			<Setter Property="HorizontalAlignment" Value="Center" />
 		</Style>
+		
 		<Style TargetType="TextBlock">
 			<Setter Property="Foreground" Value="White" />
 			<Setter Property="FontSize" Value="24" />
 		</Style>
+		
 		<Style TargetType="TextBox">
 	
 			<Setter Property="FontSize" Value="24" />
+			<Setter Property="Width" Value="400" />
 			<Setter Property="HeaderTemplate" Value="{StaticResource h1}" />
 		</Style>
+		
 		<Style TargetType="c:TextEdit">
 			<Setter Property="HeaderTemplate" Value="{StaticResource h1}" />
 			<Setter Property="FontSize" Value="24" />

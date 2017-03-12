@@ -118,15 +118,15 @@ namespace Albert.Flex.Runtime
 				var xml = XElement.Parse(content);
 				return xml;
 			}
-			catch(Exception ex)
+			catch (Exception ex)
 			{
 				var xml = new XElement("Nothing", ex.Message);
-			
+
 				return xml;
 			}
 		}
 
-		public static async Task<IEnumerable<XElement>> ReadAndQueryXmlFileAsync(StorageFile _file,string _selectValue)
+		public static async Task<IEnumerable<XElement>> ReadAndQueryXmlFileAsync(StorageFile _file, string _selectValue)
 		{
 			try
 			{
@@ -203,12 +203,12 @@ namespace Albert.Flex.Runtime
 		}
 
 
-		public static async Task WriteXmlFileAsync(StorageFile _storageFile,XElement _xmlFile)
+		public static async Task WriteXmlFileAsync(StorageFile _storageFile, XElement _xmlFile)
 		{
 
 			if (_storageFile != null)
 			{
-				
+
 				using (var stream = await _storageFile.OpenStreamForWriteAsync())
 				{
 					//Save to stream 
@@ -254,7 +254,7 @@ namespace Albert.Flex.Runtime
 			}
 		}
 
-	
+
 		/// <summary>
 		/// Writes a JPEG to the Windows Phone Platform 
 		/// </summary>
@@ -290,7 +290,7 @@ namespace Albert.Flex.Runtime
 		}
 
 
-		public static async Task ExportJpegThumbNailsAsync(string _defaultName, double _dpi,List<Image> _images)
+		public static async Task ExportJpegThumbNailsAsync(string _defaultName, double _dpi, List<Image> _images)
 		{
 			var fPicker = new FolderPicker();
 			//Suggested Folder to Start in
@@ -622,41 +622,9 @@ namespace Albert.Flex.Runtime
 		#endregion
 
 		#region IO Picker Method's 
-		public static async Task FolderPickerAsync(PickerLocationId _suggestedfolder, PickerViewMode _viewMode, Action<StorageFolder> _method)
-		{
-			var picker = new FolderPicker();
-			picker.SuggestedStartLocation = _suggestedfolder;
-			//
-			picker.ViewMode = PickerViewMode.Thumbnail;
-			// Set the folder location 
-			var folder = await picker.PickSingleFolderAsync();
-
-			//Excute the method for the storage folder 
-			_method?.Invoke(folder);
 
 
-		}
 
-
-		public static async Task SavePickerAsync(List<string> _filter,string _suggestedName,Action<FileSavePicker,StorageFile> _method)
-		{
-			var picker = new FileSavePicker();
-			picker.SuggestedStartLocation = PickerLocationId.ComputerFolder;
-			picker.FileTypeChoices.Add("All Formats", _filter);
-			foreach (var i in _filter)
-			{
-				picker.FileTypeChoices.Add($"Format({i})", _filter);
-			}
-			picker.SuggestedFileName = _suggestedName;
-			var file = await picker.PickSaveFileAsync();
-
-			if (_method != null)
-			{
-				//Do the method 
-				_method(picker,file);
-			}
-
-		}
 
 		/// <summary>
 		///  A special await task for dealing with the FileSavePicker
@@ -664,70 +632,99 @@ namespace Albert.Flex.Runtime
 		/// <param name="_filter">List(string) Filter for the file Formats</param>
 		/// <param name="_method">The Method that excutes the SavePicker Logic</param>
 		/// <returns></returns>
-		public static async Task SavePickerAsync(List<string> _filter,string _suggestedName ,Action<StorageFile> _method)
+		public static async Task SaveTextAsync(string _suggestedName,string _content)
 		{
-			var picker = new FileSavePicker();
+			try
+			{
+				var picker = new FileSavePicker();
+				picker.SuggestedStartLocation = PickerLocationId.ComputerFolder;
+				picker.FileTypeChoices.Add("All Formats", new List<string> { ".txt", ".htm", ".html", ".css", ".scss", ".sass", ".php", ".cs", ".vb", ".js", ".json", ".cpp", ".h", ".rb", ".py", ".pyw", ".xml", });
+
+				picker.SuggestedFileName = _suggestedName;
+				var file = await picker.PickSaveFileAsync();
+
+
+				if (file != null)
+				{
+					//Do the method 
+					await WriteTextAsync(file, _content);
+				}
+				else
+				{
+					// Do nothing 
+				}
+			}
+			catch (Exception ex)
+			{
+
+				await Device10x.MsgShow("Eror", ex.Message, "Ok");
+			}
+
+
+
+		}
+
+		public static async Task OpenPictureAsync(Image _img)
+		{
+			var picker = new FileOpenPicker();
+			picker.SuggestedStartLocation = PickerLocationId.PicturesLibrary;
+			picker.FileTypeFilter.Add(".png");
+			picker.FileTypeFilter.Add(".jpg");
+			picker.FileTypeFilter.Add(".jpeg");
+			picker.FileTypeFilter.Add(".tiff");
+
+			//Show the Dialog 
+			var file = await picker.PickSingleFileAsync();
+
+			if (file != null)
+			{
+				//Load the Picture 
+				await LoadImageSourceAsync(_img, file);
+			}
+			else
+			{
+				//Do Nothing for now 
+			}
+		}
+
+		
+
+		/// <param name="_method">The Method that excutes the OpenPicker Logic</param>
+		/// <returns></returns>
+		public static async Task OpenTextFileAsync(Action<FileOpenPicker, StorageFile> _method)
+		{
+
+			var picker = new FileOpenPicker();
 			picker.SuggestedStartLocation = PickerLocationId.ComputerFolder;
-			picker.FileTypeChoices.Add("All Formats", _filter);
-			picker.SuggestedFileName = _suggestedName;
-			var file = await picker.PickSaveFileAsync();
 
-			if (_method != null)
-			{
-				//Do the method 
-				_method(file);
-			}
-
-
-
-		}
-
-		/// <summary>
-		///  A special await task for dealing with the FileOpenPicker
-		/// </summary>
-		/// <param name="_filter">List(string) Filter for the file Formats</param>
-		/// <param name="_method">The Method that excutes the OpenPicker Logic</param>
-		/// <returns></returns>
-		public static async Task OpenPickerAsync(List<string> _filter, Action<FileOpenPicker,StorageFile> _method)
-		{
-			var picker = new FileOpenPicker();
-			//picker.SuggestedStartLocation = PickerLocationId.ComputerFolder;
-
-			foreach (var fn in _filter)
-			{
-				picker.FileTypeFilter.Add(fn);
-			}
-
+			picker.FileTypeFilter.Add(".txt");
+			picker.FileTypeFilter.Add(".html");
+			picker.FileTypeFilter.Add(".css");
+			picker.FileTypeFilter.Add(".sass");
+			picker.FileTypeFilter.Add(".scss");
+			picker.FileTypeFilter.Add(".php");
+			picker.FileTypeFilter.Add(".cs");
+			picker.FileTypeFilter.Add(".vb");
+			picker.FileTypeFilter.Add(".svg");
+			picker.FileTypeFilter.Add(".cshtml");
+			picker.FileTypeFilter.Add(".xml");
+			picker.FileTypeFilter.Add(".js");
+			picker.FileTypeFilter.Add(".json");
+			picker.FileTypeFilter.Add(".cpp");
+			picker.FileTypeFilter.Add(".h");
+			picker.FileTypeFilter.Add(".py");
+			picker.FileTypeFilter.Add(".pyw");
 			var file = await picker.PickSingleFileAsync();
 
-			if (_method != null)
+			if (file != null)
 			{
-				_method(picker,file);
+				_method?.Invoke(picker, file);
 			}
-		}
-
-		/// <summary>
-		///  A special await task for dealing with the FileOpenPicker
-		/// </summary>
-		/// <param name="_filter">List(string) Filter for the file Formats</param>
-		/// <param name="_method">The Method that excutes the OpenPicker Logic</param>
-		/// <returns></returns>
-		public static async Task OpenPickerAsync(List<string> _filter, Action<StorageFile> _method)
-		{
-			var picker = new FileOpenPicker();
-			//picker.SuggestedStartLocation = PickerLocationId.ComputerFolder;
-
-			foreach (var fn in _filter)
+			else
 			{
-				picker.FileTypeFilter.Add(fn);
+				//Do Nothing for now 
 			}
 
-			var file = await picker.PickSingleFileAsync();
-
-			if (_method != null)
-			{
-				_method(file);
-			}
 		}
 		#endregion
 
@@ -744,7 +741,7 @@ namespace Albert.Flex.Runtime
 			fPicker.FileTypeFilter.Add(".txt");
 			//Get the folder that has been selected 
 			var folder = await fPicker.PickSingleFolderAsync();
-		
+
 			//Excute the Method 
 			_method?.Invoke(folder);
 

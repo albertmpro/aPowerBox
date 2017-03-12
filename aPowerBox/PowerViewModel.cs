@@ -61,10 +61,7 @@ namespace aPowerBox
 
 		public static RuntimeVMList<WebFile> Scripts { get; } = new RuntimeVMList<WebFile>();
 
-	/// <summary>
-	/// Default Filter for Text Documents 
-	/// </summary>
-		public static List<string> Filter { get; } = new List<string> { ".", ".txt", ".htm", ".html", ".css",".aspx","cshtml", ".php", ".scss", ".js", ".sass", ".rb", ".py", ".pyw", ".cs", ".vb", ".h", ".cpp" };
+	
 
 
 		#endregion
@@ -93,20 +90,6 @@ namespace aPowerBox
 		#endregion
 
 
-		#region Text Rendering 
-		public static async Task ExportTextAsync(string _content)
-		{
-
-			await SavePickerAsync(Filter, "TextFile.txt", async (p, s) =>
-			{
-
-				await WriteTextAsync(s, _content);
-				VMNotify($"You have saved{s.DisplayName}");
-			});
-		}
-
-
-		#endregion
 
 
 

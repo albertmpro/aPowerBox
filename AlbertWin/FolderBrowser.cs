@@ -21,7 +21,7 @@ namespace Albert.Flex.Windows
 			if (_show == true)
 			{
 
-				browser.ShowDialog();
+	           browser.ShowDialog();
 
 				try
 				{

@@ -14,25 +14,26 @@
 				<StackPanel>
 					
 					<!-- Menu Button-->
-					<c:HamburgerButton Label="Menu" Symbol="&#xE700;" Content="Main Menu"  ShowImage="Collapsed" ShowSymbol="Visible" />
+					<c:HamburgerButton x:ConnectionId='2'                   Label="Menu" Symbol="&#xE700;" Content="Main Menu"  ShowImage="Collapsed" ShowSymbol="Visible" />
 					<!-- Start Viewn-->
-					<c:HamburgerButton  Symbol="St"  ShowImage="Collapsed" ShowSymbol="Visible" SymbolFontFamily="Segoe UI" Label="Start" />
+					<c:HamburgerButton x:ConnectionId='3'                    Symbol="St"  ShowImage="Collapsed" ShowSymbol="Visible" SymbolFontFamily="Segoe UI" Label="Start" />
 					<!-- Character Lab-->
-					<c:HamburgerButton  Symbol="Ch" SymbolFontFamily="Segoe UI" Label="Character Lab" IconSource="ms-appx:///Assets/charactericon.png" />
+					<c:HamburgerButton x:ConnectionId='4'                    Symbol="Ch" SymbolFontFamily="Segoe UI" Label="Character Lab" IconSource="ms-appx:///Assets/charactericon.png" />
 
 					<!-- Map Lab-->
-					<c:HamburgerButton Symbol="Mp" SymbolFontFamily="Segoe UI Black" Label="Map Lab"   IconSource="ms-appx:///Assets/MapIcon.png" />
+					<c:HamburgerButton x:ConnectionId='5'                   Symbol="Mp" SymbolFontFamily="Segoe UI Black" Label="Map Lab"   IconSource="ms-appx:///Assets/MapIcon.png" />
 					<!-- PDF Lab-->
-					<c:HamburgerButton  Symbol="PD" SymbolFontFamily="Segoe UI" Label="PDF Lab" ShowSymbol="Collapsed"   IconSource="ms-appx:///Assets/PdfIcon.png"  />
+					<c:HamburgerButton x:ConnectionId='6'                    Symbol="PD" SymbolFontFamily="Segoe UI" Label="PDF Lab" ShowSymbol="Collapsed"   IconSource="ms-appx:///Assets/PdfIcon.png"  />
 					<!-- Sketch Lab -->
-					<c:HamburgerButton   Symbol="Sk" SymbolFontFamily="Segoe UI Black" Label="Sketch Lab" IconSource="ms-appx:///Assets/sketchicon.png" />
+					<c:HamburgerButton x:ConnectionId='7'                     Symbol="Sk" SymbolFontFamily="Segoe UI Black" Label="Sketch Lab" IconSource="ms-appx:///Assets/sketchicon.png" />
 
 					<!-- Theme Lab -->
-					<c:HamburgerButton Symbol="Th" SymbolFontFamily="Segoe UI Black" Label="Theme Lab" ShowSymbol="Collapsed"   IconSource="ms-appx:///Assets/ThemeIcon.png"  />
+					<c:HamburgerButton x:ConnectionId='8'                     Symbol="Th" SymbolFontFamily="Segoe UI Black" Label="Theme Lab" ShowSymbol="Collapsed"   IconSource="ms-appx:///Assets/ThemeIcon.png"  />
 					<!-- WebDev Lab-->
-					<c:HamburgerButton Symbol="Wb" SymbolFontFamily="Segoe UI Black" Label="WebDev Lab" IconSource="ms-appx:///Assets/webicon.png" />
+					<c:HamburgerButton x:ConnectionId='9'                   Symbol="Wb" SymbolFontFamily="Segoe UI Black" Label="WebDev Lab" IconSource="ms-appx:///Assets/webicon.png" />
+					
 					<!-- Writer Lab -->
-					<c:HamburgerButton  Symbol="Wr" SymbolFontFamily="Segoe UI" Label="Write Lab"  IconSource="ms-appx:///Assets/writeicon.png"  />
+					<c:HamburgerButton x:ConnectionId='10'                    Symbol="Wr" SymbolFontFamily="Segoe UI" Label="Write Lab"  IconSource="ms-appx:///Assets/writeicon.png"  />
 
 			
 					
@@ -48,13 +49,13 @@
 				</Grid.RowDefinitions>
 
 
-				<Frame x:ConnectionId='2' x:Name="frame" />
+				<Frame x:ConnectionId='11' x:Name="frame" />
 
-				<c:HamburgerButton x:ConnectionId='3' x:Name="hamMenu"  VerticalAlignment="Top" HorizontalAlignment="Left" ShowImage="Collapsed" ShowSymbol="Visible"                    Symbol="&#xE700;" />
+				<c:HamburgerButton x:ConnectionId='12' x:Name="hamMenu"  VerticalAlignment="Top" HorizontalAlignment="Left" ShowImage="Collapsed" ShowSymbol="Visible"                    Symbol="&#xE700;" />
 
 				<StackPanel Orientation="Horizontal" Height="35"  Grid.Row="1" >
 					<TextBlock VerticalAlignment="Center" Margin="5,0,0,0" FontWeight="Black" Foreground="White" Text="Status:" />
-					<TextBlock x:ConnectionId='4' Margin="7,0,0,0"  x:Name="tbStatus" Foreground="White" VerticalAlignment="Center" />
+					<TextBlock x:ConnectionId='13' Margin="7,0,0,0"  x:Name="tbStatus" Foreground="White" VerticalAlignment="Center" />
 
 				</StackPanel>
 			</Grid>

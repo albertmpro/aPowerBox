@@ -13,7 +13,7 @@ namespace Albert.Flex.Windows
 	{
 		//Field's 
 		string description, keywords, author, head, body;
-		List<string> styles, scripts;
+		CoreList<string> styles, scripts;
 
 		#region Constructor's 
 		/// <summary>
@@ -92,12 +92,12 @@ namespace Albert.Flex.Windows
 
 		#region Properties 
 
-		public List<string> Styles
+		public CoreList<string> Styles
 		{
 			get { return styles; }
 			set { styles = value; OnPropertyChanged("Styles"); }
 		}
-		public List<string> Scripts
+		public CoreList<string> Scripts
 		{
 			get { return scripts; }
 			set { scripts = value; OnPropertyChanged("Scripts"); }

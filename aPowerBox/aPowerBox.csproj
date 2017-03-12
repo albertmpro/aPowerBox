@@ -39,7 +39,8 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>true</Prefer32Bit>
-    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+    <UseDotNetNativeToolchain>false</UseDotNetNativeToolchain>
+    <EnableGatekeeperAnalysis>false</EnableGatekeeperAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <DebugSymbols>true</DebugSymbols>
@@ -101,8 +102,14 @@
     </Compile>
     <Compile Include="PowerViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\BannerMaker.xaml.cs">
+      <DependentUpon>BannerMaker.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\CharacterLab.xaml.cs">
       <DependentUpon>CharacterLab.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LaunchHub.xaml.cs">
+      <DependentUpon>LaunchHub.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\MainView.xaml.cs">
       <DependentUpon>MainView.xaml</DependentUpon>
@@ -115,6 +122,9 @@
     </Compile>
     <Compile Include="View\QuickNote.xaml.cs">
       <DependentUpon>QuickNote.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\QuickTheme.xaml.cs">
+      <DependentUpon>QuickTheme.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\SketchLab.xaml.cs">
       <DependentUpon>SketchLab.xaml</DependentUpon>
@@ -152,6 +162,41 @@
     <None Include="aPowerBox_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\appbar\about.png" />
+    <Content Include="Assets\appbar\add.png" />
+    <Content Include="Assets\appbar\aHubWide.png" />
+    <Content Include="Assets\appbar\Area.png" />
+    <Content Include="Assets\appbar\areaRoad.png" />
+    <Content Include="Assets\appbar\back.png" />
+    <Content Include="Assets\appbar\Browser.png" />
+    <Content Include="Assets\appbar\camera.png" />
+    <Content Include="Assets\appbar\cancel.png" />
+    <Content Include="Assets\appbar\circle.png" />
+    <Content Include="Assets\appbar\clear.png" />
+    <Content Include="Assets\appbar\clock.png" />
+    <Content Include="Assets\appbar\colorLabIcon.png" />
+    <Content Include="Assets\appbar\edit.png" />
+    <Content Include="Assets\appbar\erase.png" />
+    <Content Include="Assets\appbar\file.png" />
+    <Content Include="Assets\appbar\forward.png" />
+    <Content Include="Assets\appbar\icons.png" />
+    <Content Include="Assets\appbar\line.png" />
+    <Content Include="Assets\appbar\ok.png" />
+    <Content Include="Assets\appbar\paint.png" />
+    <Content Include="Assets\appbar\rectangle.png" />
+    <Content Include="Assets\appbar\refresh.png" />
+    <Content Include="Assets\appbar\remove.png" />
+    <Content Include="Assets\appbar\road.png" />
+    <Content Include="Assets\appbar\save.png" />
+    <Content Include="Assets\appbar\search.png" />
+    <Content Include="Assets\appbar\settings.png" />
+    <Content Include="Assets\appbar\share.png" />
+    <Content Include="Assets\appbar\showNavBar.png" />
+    <Content Include="Assets\appbar\star.png" />
+    <Content Include="Assets\appbar\start.png" />
+    <Content Include="Assets\appbar\status.png" />
+    <Content Include="Assets\appbar\trace.png" />
+    <Content Include="Assets\appbar\triangle.png" />
     <Content Include="Assets\BadgeLogo.scale-100.png" />
     <Content Include="Assets\BadgeLogo.scale-125.png" />
     <Content Include="Assets\BadgeLogo.scale-150.png" />
@@ -222,7 +267,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="View\BannerMaker.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="View\CharacterLab.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\LaunchHub.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -239,6 +292,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\QuickNote.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\QuickTheme.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -289,6 +346,7 @@
       <Name>AlbertRun</Name>
     </ProjectReference>
   </ItemGroup>
+  <Import Project="..\AlbertWeb\AlbertWeb.projitems" Label="Shared" />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

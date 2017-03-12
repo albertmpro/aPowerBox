@@ -71,24 +71,27 @@ namespace aPowerBox.View
 
 			switch(ham.Symbol)
 			{
+				case "St": //Start View
+					VMNavigate(typeof(StartView));
+					break;
 				case "Ch": //Character Lab 
-
+					VMNavigate(typeof(CharacterLab));
 					break;
 				case "Mp": //Map Lab 
-
+					VMNavigate(typeof(MapLab));
 					break;
-				case "PDF": // PDF Lab
-
+				case "PD": // PDF Lab
+					VMNavigate(typeof(PDfView));
 					break;
 
 				case "Sk": //Sketch Lab 
-
+					VMNavigate(typeof(SketchLab));
 					break;
 				case "Wb": //Web Dev Lab 
-
+					VMNavigate(typeof(WebDevLab));
 					break;
 				case "Wr": // Write Lab 
-
+					VMNavigate(typeof(WriterLab));
 					break;
 				default:
 

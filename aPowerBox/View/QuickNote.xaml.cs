@@ -12,6 +12,9 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.Storage;
+using Albert.Flex.Runtime;
+using Windows.Storage.Pickers;
 using static aPowerBox.PowerViewModel;
 using static Albert.Flex.Runtime.AsyncIO;
 using Windows.UI.Text;
@@ -36,9 +39,9 @@ namespace aPowerBox.View
 		async void load_Click(object sender, RoutedEventArgs e)
 		{
 			//Load the TextFile 
-			await OpenPickerAsync(Filter, async (s) =>
+			await OpenTextFileAsync(async (p, s) =>
 			 {
-				
+
 				 var str = await ReadTextAsync(s);
 
 				 txt.Document.SetText(TextSetOptions.None, str);
@@ -50,9 +53,22 @@ namespace aPowerBox.View
 
 		async void save_Click(object sender, RoutedEventArgs e)
 		{
-			var str = "";
-			txt.Document.GetText(Windows.UI.Text.TextGetOptions.None, out str);
-			await ExportTextAsync(str);
+			try
+			{
+
+				//Write the file here 
+				var str = "";
+				txt.Document.GetText(TextGetOptions.None, out str);
+
+				//Write the File 
+				await SaveTextAsync("TextDocument.txt", str);
+
+
+			}
+			catch (Exception ex)
+			{
+				await Device10x.MsgShow("Error", ex.Message, "Ok");
+			}
 
 		}
 

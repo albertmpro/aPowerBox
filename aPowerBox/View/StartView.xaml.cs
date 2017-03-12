@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Albert.Flex.Runtime;
+using static aPowerBox.PowerViewModel;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -28,40 +29,6 @@ namespace aPowerBox.View
 			this.InitializeComponent();
 		}
 
-		void hyperlink_Click(object sender, RoutedEventArgs e)
-		{
-			var hype = sender as HyperlinkButton;
-
-			switch (hype.Tag)
-			{
-				case "character":
-
-					break;
-				case "map":
-
-					break;
-				case "pdf":
-
-					break;
-				case "sketch":
-
-					break;
-				case "theme":
-
-					break;
-				case "web":
-
-					break;
-				case "writer":
-
-					break;
-				default:
-
-					break;
-			}
-
-
-		}
 
 	}
 }

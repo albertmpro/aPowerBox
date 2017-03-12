@@ -5,11 +5,24 @@
     xmlns:local="using:aPowerBox.View"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:c="using:Albert.Flex.Runtime"
     mc:Ignorable="d"
-    d:DesignHeight="300"
-    d:DesignWidth="400">
+    d:DesignHeight="350"
+    d:DesignWidth="500">
 
-    <Grid>
 
-    </Grid>
+		<Grid>
+			<StackPanel>
+				<TextBlock FontWeight="Black" Text="WordPress Plugin  Generator" TextAlignment="Center" />
+				<TextBox x:Name="txtName" Header="Name" />
+				<TextBox x:Name="txtAuthor" Header="Author" />
+				<TextBox x:Name="txtVersion" Header="Version" />
+			<StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+						<c:PushButton x:Name="btnExport" Content="Export" />
+				<c:PushButton x:Name="btnClear" Content="Clear" />
+			</StackPanel>
+		
+			</StackPanel>
+		</Grid>
+	
 </UserControl>

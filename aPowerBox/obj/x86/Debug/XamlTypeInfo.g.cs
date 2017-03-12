@@ -156,7 +156,7 @@ namespace aPowerBox.aPowerBox_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[49];
+            _typeNameTable = new string[62];
             _typeNameTable[0] = "aPowerBox.PowerViewModel";
             _typeNameTable[1] = "Albert.Flex.Runtime.ViewModel";
             _typeNameTable[2] = "Albert.Flex.Notify";
@@ -166,48 +166,61 @@ namespace aPowerBox.aPowerBox_XamlTypeInfo
             _typeNameTable[6] = "Windows.UI.Color";
             _typeNameTable[7] = "System.ValueType";
             _typeNameTable[8] = "Byte";
-            _typeNameTable[9] = "Albert.Flex.Runtime.PushButton";
-            _typeNameTable[10] = "Windows.UI.Xaml.Controls.Button";
-            _typeNameTable[11] = "Windows.UI.Xaml.Controls.ContentControl";
-            _typeNameTable[12] = "Windows.UI.Xaml.Media.Brush";
-            _typeNameTable[13] = "String";
-            _typeNameTable[14] = "Int32";
-            _typeNameTable[15] = "Windows.UI.Xaml.CornerRadius";
-            _typeNameTable[16] = "Albert.Flex.Runtime.HamburgerButton";
-            _typeNameTable[17] = "Windows.UI.Xaml.Visibility";
-            _typeNameTable[18] = "Windows.UI.Xaml.Media.ImageSource";
-            _typeNameTable[19] = "Windows.UI.Xaml.Media.Stretch";
-            _typeNameTable[20] = "Windows.UI.Xaml.Media.FontFamily";
-            _typeNameTable[21] = "Albert.Flex.Runtime.OptionButton";
-            _typeNameTable[22] = "Windows.UI.Xaml.Controls.RadioButton";
-            _typeNameTable[23] = "Double";
-            _typeNameTable[24] = "Albert.Flex.Runtime.TextEdit";
-            _typeNameTable[25] = "Windows.UI.Xaml.Controls.RichEditBox";
-            _typeNameTable[26] = "Boolean";
-            _typeNameTable[27] = "aPowerBox.MainPage";
-            _typeNameTable[28] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[29] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[30] = "Albert.Flex.Runtime.Page10x";
-            _typeNameTable[31] = "Albert.Flex.Runtime.CmdBar";
-            _typeNameTable[32] = "Windows.UI.Xaml.Controls.CommandBar";
-            _typeNameTable[33] = "aPowerBox.View.CharacterLab";
-            _typeNameTable[34] = "aPowerBox.View.CharacterLab.SheetState";
-            _typeNameTable[35] = "System.Enum";
-            _typeNameTable[36] = "aPowerBox.View.MainView";
-            _typeNameTable[37] = "aPowerBox.View.MapLab";
-            _typeNameTable[38] = "aPowerBox.View.PDfView";
-            _typeNameTable[39] = "aPowerBox.View.QuickNote";
-            _typeNameTable[40] = "aPowerBox.View.SketchLab";
-            _typeNameTable[41] = "aPowerBox.View.StartView";
-            _typeNameTable[42] = "aPowerBox.View.StaticWeb";
-            _typeNameTable[43] = "aPowerBox.View.ThemeLab";
-            _typeNameTable[44] = "aPowerBox.View.WebBanner";
-            _typeNameTable[45] = "aPowerBox.View.WebDevLab";
-            _typeNameTable[46] = "aPowerBox.View.WPPlug";
-            _typeNameTable[47] = "aPowerBox.View.WPTheme";
-            _typeNameTable[48] = "aPowerBox.View.WriterLab";
+            _typeNameTable[9] = "Albert.Flex.Runtime.CmdBar";
+            _typeNameTable[10] = "Windows.UI.Xaml.Controls.CommandBar";
+            _typeNameTable[11] = "Albert.Flex.Runtime.CmdButton";
+            _typeNameTable[12] = "Windows.UI.Xaml.Controls.AppBarButton";
+            _typeNameTable[13] = "Windows.UI.Xaml.Controls.ContentControl";
+            _typeNameTable[14] = "Albert.Flex.Runtime.PushButton";
+            _typeNameTable[15] = "Windows.UI.Xaml.Controls.Button";
+            _typeNameTable[16] = "Windows.UI.Xaml.Media.Brush";
+            _typeNameTable[17] = "String";
+            _typeNameTable[18] = "Int32";
+            _typeNameTable[19] = "Windows.UI.Xaml.CornerRadius";
+            _typeNameTable[20] = "Albert.Flex.Runtime.OptionButton";
+            _typeNameTable[21] = "Windows.UI.Xaml.Controls.RadioButton";
+            _typeNameTable[22] = "Double";
+            _typeNameTable[23] = "Windows.UI.Xaml.Visibility";
+            _typeNameTable[24] = "Windows.UI.Xaml.Media.ImageSource";
+            _typeNameTable[25] = "Windows.UI.Xaml.Media.Stretch";
+            _typeNameTable[26] = "Albert.Flex.Runtime.HamburgerButton";
+            _typeNameTable[27] = "Windows.UI.Xaml.Media.FontFamily";
+            _typeNameTable[28] = "Albert.Flex.Runtime.TextEdit";
+            _typeNameTable[29] = "Windows.UI.Xaml.Controls.RichEditBox";
+            _typeNameTable[30] = "Boolean";
+            _typeNameTable[31] = "aPowerBox.MainPage";
+            _typeNameTable[32] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[33] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[34] = "aPowerBox.View.BannerMaker";
+            _typeNameTable[35] = "Albert.Flex.Runtime.Page10x";
+            _typeNameTable[36] = "aPowerBox.View.CharacterLab";
+            _typeNameTable[37] = "aPowerBox.View.CharacterLab.SheetState";
+            _typeNameTable[38] = "System.Enum";
+            _typeNameTable[39] = "aPowerBox.View.LaunchHub";
+            _typeNameTable[40] = "aPowerBox.View.MainView";
+            _typeNameTable[41] = "aPowerBox.View.MapLab";
+            _typeNameTable[42] = "aPowerBox.View.PDfView";
+            _typeNameTable[43] = "aPowerBox.View.QuickNote";
+            _typeNameTable[44] = "Albert.Flex.Runtime.ColorPicker";
+            _typeNameTable[45] = "Windows.UI.Xaml.Controls.Grid";
+            _typeNameTable[46] = "Windows.UI.Xaml.Controls.Panel";
+            _typeNameTable[47] = "Windows.UI.Xaml.Media.SolidColorBrush";
+            _typeNameTable[48] = "aPowerBox.View.QuickTheme";
+            _typeNameTable[49] = "Albert.Flex.Runtime.SketchCanvas";
+            _typeNameTable[50] = "Windows.UI.Xaml.Controls.Canvas";
+            _typeNameTable[51] = "Albert.Flex.Runtime.SketchState";
+            _typeNameTable[52] = "Windows.UI.Xaml.Media.PenLineCap";
+            _typeNameTable[53] = "aPowerBox.View.SketchLab";
+            _typeNameTable[54] = "aPowerBox.View.StartView";
+            _typeNameTable[55] = "aPowerBox.View.StaticWeb";
+            _typeNameTable[56] = "aPowerBox.View.ThemeLab";
+            _typeNameTable[57] = "aPowerBox.View.WebBanner";
+            _typeNameTable[58] = "aPowerBox.View.WPPlug";
+            _typeNameTable[59] = "aPowerBox.View.WPTheme";
+            _typeNameTable[60] = "aPowerBox.View.WebDevLab";
+            _typeNameTable[61] = "aPowerBox.View.WriterLab";
 
-            _typeTable = new global::System.Type[49];
+            _typeTable = new global::System.Type[62];
             _typeTable[0] = typeof(global::aPowerBox.PowerViewModel);
             _typeTable[1] = typeof(global::Albert.Flex.Runtime.ViewModel);
             _typeTable[2] = typeof(global::Albert.Flex.Notify);
@@ -217,46 +230,59 @@ namespace aPowerBox.aPowerBox_XamlTypeInfo
             _typeTable[6] = typeof(global::Windows.UI.Color);
             _typeTable[7] = typeof(global::System.ValueType);
             _typeTable[8] = typeof(global::System.Byte);
-            _typeTable[9] = typeof(global::Albert.Flex.Runtime.PushButton);
-            _typeTable[10] = typeof(global::Windows.UI.Xaml.Controls.Button);
-            _typeTable[11] = typeof(global::Windows.UI.Xaml.Controls.ContentControl);
-            _typeTable[12] = typeof(global::Windows.UI.Xaml.Media.Brush);
-            _typeTable[13] = typeof(global::System.String);
-            _typeTable[14] = typeof(global::System.Int32);
-            _typeTable[15] = typeof(global::Windows.UI.Xaml.CornerRadius);
-            _typeTable[16] = typeof(global::Albert.Flex.Runtime.HamburgerButton);
-            _typeTable[17] = typeof(global::Windows.UI.Xaml.Visibility);
-            _typeTable[18] = typeof(global::Windows.UI.Xaml.Media.ImageSource);
-            _typeTable[19] = typeof(global::Windows.UI.Xaml.Media.Stretch);
-            _typeTable[20] = typeof(global::Windows.UI.Xaml.Media.FontFamily);
-            _typeTable[21] = typeof(global::Albert.Flex.Runtime.OptionButton);
-            _typeTable[22] = typeof(global::Windows.UI.Xaml.Controls.RadioButton);
-            _typeTable[23] = typeof(global::System.Double);
-            _typeTable[24] = typeof(global::Albert.Flex.Runtime.TextEdit);
-            _typeTable[25] = typeof(global::Windows.UI.Xaml.Controls.RichEditBox);
-            _typeTable[26] = typeof(global::System.Boolean);
-            _typeTable[27] = typeof(global::aPowerBox.MainPage);
-            _typeTable[28] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[29] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[30] = typeof(global::Albert.Flex.Runtime.Page10x);
-            _typeTable[31] = typeof(global::Albert.Flex.Runtime.CmdBar);
-            _typeTable[32] = typeof(global::Windows.UI.Xaml.Controls.CommandBar);
-            _typeTable[33] = typeof(global::aPowerBox.View.CharacterLab);
-            _typeTable[34] = typeof(global::aPowerBox.View.CharacterLab.SheetState);
-            _typeTable[35] = typeof(global::System.Enum);
-            _typeTable[36] = typeof(global::aPowerBox.View.MainView);
-            _typeTable[37] = typeof(global::aPowerBox.View.MapLab);
-            _typeTable[38] = typeof(global::aPowerBox.View.PDfView);
-            _typeTable[39] = typeof(global::aPowerBox.View.QuickNote);
-            _typeTable[40] = typeof(global::aPowerBox.View.SketchLab);
-            _typeTable[41] = typeof(global::aPowerBox.View.StartView);
-            _typeTable[42] = typeof(global::aPowerBox.View.StaticWeb);
-            _typeTable[43] = typeof(global::aPowerBox.View.ThemeLab);
-            _typeTable[44] = typeof(global::aPowerBox.View.WebBanner);
-            _typeTable[45] = typeof(global::aPowerBox.View.WebDevLab);
-            _typeTable[46] = typeof(global::aPowerBox.View.WPPlug);
-            _typeTable[47] = typeof(global::aPowerBox.View.WPTheme);
-            _typeTable[48] = typeof(global::aPowerBox.View.WriterLab);
+            _typeTable[9] = typeof(global::Albert.Flex.Runtime.CmdBar);
+            _typeTable[10] = typeof(global::Windows.UI.Xaml.Controls.CommandBar);
+            _typeTable[11] = typeof(global::Albert.Flex.Runtime.CmdButton);
+            _typeTable[12] = typeof(global::Windows.UI.Xaml.Controls.AppBarButton);
+            _typeTable[13] = typeof(global::Windows.UI.Xaml.Controls.ContentControl);
+            _typeTable[14] = typeof(global::Albert.Flex.Runtime.PushButton);
+            _typeTable[15] = typeof(global::Windows.UI.Xaml.Controls.Button);
+            _typeTable[16] = typeof(global::Windows.UI.Xaml.Media.Brush);
+            _typeTable[17] = typeof(global::System.String);
+            _typeTable[18] = typeof(global::System.Int32);
+            _typeTable[19] = typeof(global::Windows.UI.Xaml.CornerRadius);
+            _typeTable[20] = typeof(global::Albert.Flex.Runtime.OptionButton);
+            _typeTable[21] = typeof(global::Windows.UI.Xaml.Controls.RadioButton);
+            _typeTable[22] = typeof(global::System.Double);
+            _typeTable[23] = typeof(global::Windows.UI.Xaml.Visibility);
+            _typeTable[24] = typeof(global::Windows.UI.Xaml.Media.ImageSource);
+            _typeTable[25] = typeof(global::Windows.UI.Xaml.Media.Stretch);
+            _typeTable[26] = typeof(global::Albert.Flex.Runtime.HamburgerButton);
+            _typeTable[27] = typeof(global::Windows.UI.Xaml.Media.FontFamily);
+            _typeTable[28] = typeof(global::Albert.Flex.Runtime.TextEdit);
+            _typeTable[29] = typeof(global::Windows.UI.Xaml.Controls.RichEditBox);
+            _typeTable[30] = typeof(global::System.Boolean);
+            _typeTable[31] = typeof(global::aPowerBox.MainPage);
+            _typeTable[32] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[33] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[34] = typeof(global::aPowerBox.View.BannerMaker);
+            _typeTable[35] = typeof(global::Albert.Flex.Runtime.Page10x);
+            _typeTable[36] = typeof(global::aPowerBox.View.CharacterLab);
+            _typeTable[37] = typeof(global::aPowerBox.View.CharacterLab.SheetState);
+            _typeTable[38] = typeof(global::System.Enum);
+            _typeTable[39] = typeof(global::aPowerBox.View.LaunchHub);
+            _typeTable[40] = typeof(global::aPowerBox.View.MainView);
+            _typeTable[41] = typeof(global::aPowerBox.View.MapLab);
+            _typeTable[42] = typeof(global::aPowerBox.View.PDfView);
+            _typeTable[43] = typeof(global::aPowerBox.View.QuickNote);
+            _typeTable[44] = typeof(global::Albert.Flex.Runtime.ColorPicker);
+            _typeTable[45] = typeof(global::Windows.UI.Xaml.Controls.Grid);
+            _typeTable[46] = typeof(global::Windows.UI.Xaml.Controls.Panel);
+            _typeTable[47] = typeof(global::Windows.UI.Xaml.Media.SolidColorBrush);
+            _typeTable[48] = typeof(global::aPowerBox.View.QuickTheme);
+            _typeTable[49] = typeof(global::Albert.Flex.Runtime.SketchCanvas);
+            _typeTable[50] = typeof(global::Windows.UI.Xaml.Controls.Canvas);
+            _typeTable[51] = typeof(global::Albert.Flex.Runtime.SketchState);
+            _typeTable[52] = typeof(global::Windows.UI.Xaml.Media.PenLineCap);
+            _typeTable[53] = typeof(global::aPowerBox.View.SketchLab);
+            _typeTable[54] = typeof(global::aPowerBox.View.StartView);
+            _typeTable[55] = typeof(global::aPowerBox.View.StaticWeb);
+            _typeTable[56] = typeof(global::aPowerBox.View.ThemeLab);
+            _typeTable[57] = typeof(global::aPowerBox.View.WebBanner);
+            _typeTable[58] = typeof(global::aPowerBox.View.WPPlug);
+            _typeTable[59] = typeof(global::aPowerBox.View.WPTheme);
+            _typeTable[60] = typeof(global::aPowerBox.View.WebDevLab);
+            _typeTable[61] = typeof(global::aPowerBox.View.WriterLab);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -292,27 +318,33 @@ namespace aPowerBox.aPowerBox_XamlTypeInfo
         }
 
         private object Activate_0_PowerViewModel() { return new global::aPowerBox.PowerViewModel(); }
-        private object Activate_9_PushButton() { return new global::Albert.Flex.Runtime.PushButton(); }
-        private object Activate_16_HamburgerButton() { return new global::Albert.Flex.Runtime.HamburgerButton(); }
-        private object Activate_21_OptionButton() { return new global::Albert.Flex.Runtime.OptionButton(); }
-        private object Activate_24_TextEdit() { return new global::Albert.Flex.Runtime.TextEdit(); }
-        private object Activate_27_MainPage() { return new global::aPowerBox.MainPage(); }
-        private object Activate_30_Page10x() { return new global::Albert.Flex.Runtime.Page10x(); }
-        private object Activate_31_CmdBar() { return new global::Albert.Flex.Runtime.CmdBar(); }
-        private object Activate_33_CharacterLab() { return new global::aPowerBox.View.CharacterLab(); }
-        private object Activate_36_MainView() { return new global::aPowerBox.View.MainView(); }
-        private object Activate_37_MapLab() { return new global::aPowerBox.View.MapLab(); }
-        private object Activate_38_PDfView() { return new global::aPowerBox.View.PDfView(); }
-        private object Activate_39_QuickNote() { return new global::aPowerBox.View.QuickNote(); }
-        private object Activate_40_SketchLab() { return new global::aPowerBox.View.SketchLab(); }
-        private object Activate_41_StartView() { return new global::aPowerBox.View.StartView(); }
-        private object Activate_42_StaticWeb() { return new global::aPowerBox.View.StaticWeb(); }
-        private object Activate_43_ThemeLab() { return new global::aPowerBox.View.ThemeLab(); }
-        private object Activate_44_WebBanner() { return new global::aPowerBox.View.WebBanner(); }
-        private object Activate_45_WebDevLab() { return new global::aPowerBox.View.WebDevLab(); }
-        private object Activate_46_WPPlug() { return new global::aPowerBox.View.WPPlug(); }
-        private object Activate_47_WPTheme() { return new global::aPowerBox.View.WPTheme(); }
-        private object Activate_48_WriterLab() { return new global::aPowerBox.View.WriterLab(); }
+        private object Activate_9_CmdBar() { return new global::Albert.Flex.Runtime.CmdBar(); }
+        private object Activate_11_CmdButton() { return new global::Albert.Flex.Runtime.CmdButton(); }
+        private object Activate_14_PushButton() { return new global::Albert.Flex.Runtime.PushButton(); }
+        private object Activate_20_OptionButton() { return new global::Albert.Flex.Runtime.OptionButton(); }
+        private object Activate_26_HamburgerButton() { return new global::Albert.Flex.Runtime.HamburgerButton(); }
+        private object Activate_28_TextEdit() { return new global::Albert.Flex.Runtime.TextEdit(); }
+        private object Activate_31_MainPage() { return new global::aPowerBox.MainPage(); }
+        private object Activate_34_BannerMaker() { return new global::aPowerBox.View.BannerMaker(); }
+        private object Activate_35_Page10x() { return new global::Albert.Flex.Runtime.Page10x(); }
+        private object Activate_36_CharacterLab() { return new global::aPowerBox.View.CharacterLab(); }
+        private object Activate_39_LaunchHub() { return new global::aPowerBox.View.LaunchHub(); }
+        private object Activate_40_MainView() { return new global::aPowerBox.View.MainView(); }
+        private object Activate_41_MapLab() { return new global::aPowerBox.View.MapLab(); }
+        private object Activate_42_PDfView() { return new global::aPowerBox.View.PDfView(); }
+        private object Activate_43_QuickNote() { return new global::aPowerBox.View.QuickNote(); }
+        private object Activate_44_ColorPicker() { return new global::Albert.Flex.Runtime.ColorPicker(); }
+        private object Activate_48_QuickTheme() { return new global::aPowerBox.View.QuickTheme(); }
+        private object Activate_49_SketchCanvas() { return new global::Albert.Flex.Runtime.SketchCanvas(); }
+        private object Activate_53_SketchLab() { return new global::aPowerBox.View.SketchLab(); }
+        private object Activate_54_StartView() { return new global::aPowerBox.View.StartView(); }
+        private object Activate_55_StaticWeb() { return new global::aPowerBox.View.StaticWeb(); }
+        private object Activate_56_ThemeLab() { return new global::aPowerBox.View.ThemeLab(); }
+        private object Activate_57_WebBanner() { return new global::aPowerBox.View.WebBanner(); }
+        private object Activate_58_WPPlug() { return new global::aPowerBox.View.WPPlug(); }
+        private object Activate_59_WPTheme() { return new global::aPowerBox.View.WPTheme(); }
+        private object Activate_60_WebDevLab() { return new global::aPowerBox.View.WebDevLab(); }
+        private object Activate_61_WriterLab() { return new global::aPowerBox.View.WriterLab(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -379,9 +411,33 @@ namespace aPowerBox.aPowerBox_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 9:   //  Albert.Flex.Runtime.PushButton
+            case 9:   //  Albert.Flex.Runtime.CmdBar
+                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.CommandBar"));
+                userType.Activator = Activate_9_CmdBar;
+                xamlType = userType;
+                break;
+
+            case 10:   //  Windows.UI.Xaml.Controls.CommandBar
+                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 11:   //  Albert.Flex.Runtime.CmdButton
+                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.AppBarButton"));
+                userType.Activator = Activate_11_CmdButton;
+                xamlType = userType;
+                break;
+
+            case 12:   //  Windows.UI.Xaml.Controls.AppBarButton
+                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 13:   //  Windows.UI.Xaml.Controls.ContentControl
+                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 14:   //  Albert.Flex.Runtime.PushButton
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Button"));
-                userType.Activator = Activate_9_PushButton;
+                userType.Activator = Activate_14_PushButton;
                 userType.AddMemberName("BackgroundPointerOver");
                 userType.AddMemberName("ForegroundPointerOver");
                 userType.AddMemberName("BackgroundPressed");
@@ -394,33 +450,67 @@ namespace aPowerBox.aPowerBox_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 10:   //  Windows.UI.Xaml.Controls.Button
+            case 15:   //  Windows.UI.Xaml.Controls.Button
                 xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 11:   //  Windows.UI.Xaml.Controls.ContentControl
+            case 16:   //  Windows.UI.Xaml.Media.Brush
                 xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 12:   //  Windows.UI.Xaml.Media.Brush
+            case 17:   //  String
                 xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 13:   //  String
+            case 18:   //  Int32
                 xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 14:   //  Int32
+            case 19:   //  Windows.UI.Xaml.CornerRadius
                 xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 15:   //  Windows.UI.Xaml.CornerRadius
+            case 20:   //  Albert.Flex.Runtime.OptionButton
+                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.RadioButton"));
+                userType.Activator = Activate_20_OptionButton;
+                userType.AddMemberName("BackgroundPointerOver");
+                userType.AddMemberName("ForegroundPointerOver");
+                userType.AddMemberName("BackgroundChecked");
+                userType.AddMemberName("NavString");
+                userType.AddMemberName("ImgOpacity");
+                userType.AddMemberName("BorderBrushPointerOver");
+                userType.AddMemberName("OptionVisibility");
+                userType.AddMemberName("ForegroundChecked");
+                userType.AddMemberName("BorderBrushChecked");
+                userType.AddMemberName("CornerRadius");
+                userType.AddMemberName("Source");
+                userType.AddMemberName("Stretch");
+                xamlType = userType;
+                break;
+
+            case 21:   //  Windows.UI.Xaml.Controls.RadioButton
                 xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 16:   //  Albert.Flex.Runtime.HamburgerButton
+            case 22:   //  Double
+                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 23:   //  Windows.UI.Xaml.Visibility
+                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 24:   //  Windows.UI.Xaml.Media.ImageSource
+                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 25:   //  Windows.UI.Xaml.Media.Stretch
+                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 26:   //  Albert.Flex.Runtime.HamburgerButton
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Albert.Flex.Runtime.PushButton"));
-                userType.Activator = Activate_16_HamburgerButton;
+                userType.Activator = Activate_26_HamburgerButton;
                 userType.AddMemberName("ShowSymbol");
                 userType.AddMemberName("ShowImage");
                 userType.AddMemberName("IconSource");
@@ -431,106 +521,66 @@ namespace aPowerBox.aPowerBox_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 17:   //  Windows.UI.Xaml.Visibility
+            case 27:   //  Windows.UI.Xaml.Media.FontFamily
                 xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 18:   //  Windows.UI.Xaml.Media.ImageSource
-                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 19:   //  Windows.UI.Xaml.Media.Stretch
-                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 20:   //  Windows.UI.Xaml.Media.FontFamily
-                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 21:   //  Albert.Flex.Runtime.OptionButton
-                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.RadioButton"));
-                userType.Activator = Activate_21_OptionButton;
-                userType.AddMemberName("NavString");
-                userType.AddMemberName("ImgOpacity");
-                userType.AddMemberName("BorderBrushPointerOver");
-                userType.AddMemberName("BackgroundPointerOver");
-                userType.AddMemberName("ForegroundPointerOver");
-                userType.AddMemberName("OptionVisibility");
-                userType.AddMemberName("BackgroundChecked");
-                userType.AddMemberName("ForegroundChecked");
-                userType.AddMemberName("BorderBrushChecked");
-                userType.AddMemberName("CornerRadius");
-                userType.AddMemberName("Source");
-                userType.AddMemberName("Stretch");
-                xamlType = userType;
-                break;
-
-            case 22:   //  Windows.UI.Xaml.Controls.RadioButton
-                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 23:   //  Double
-                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 24:   //  Albert.Flex.Runtime.TextEdit
+            case 28:   //  Albert.Flex.Runtime.TextEdit
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.RichEditBox"));
-                userType.Activator = Activate_24_TextEdit;
+                userType.Activator = Activate_28_TextEdit;
                 userType.AddMemberName("AcceptsTab");
                 userType.AddMemberName("StringText");
                 xamlType = userType;
                 break;
 
-            case 25:   //  Windows.UI.Xaml.Controls.RichEditBox
+            case 29:   //  Windows.UI.Xaml.Controls.RichEditBox
                 xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 26:   //  Boolean
+            case 30:   //  Boolean
                 xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 27:   //  aPowerBox.MainPage
+            case 31:   //  aPowerBox.MainPage
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_27_MainPage;
+                userType.Activator = Activate_31_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 28:   //  Windows.UI.Xaml.Controls.Page
+            case 32:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 29:   //  Windows.UI.Xaml.Controls.UserControl
+            case 33:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 30:   //  Albert.Flex.Runtime.Page10x
+            case 34:   //  aPowerBox.View.BannerMaker
+                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_34_BannerMaker;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 35:   //  Albert.Flex.Runtime.Page10x
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_30_Page10x;
+                userType.Activator = Activate_35_Page10x;
                 xamlType = userType;
                 break;
 
-            case 31:   //  Albert.Flex.Runtime.CmdBar
-                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.CommandBar"));
-                userType.Activator = Activate_31_CmdBar;
-                xamlType = userType;
-                break;
-
-            case 32:   //  Windows.UI.Xaml.Controls.CommandBar
-                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 33:   //  aPowerBox.View.CharacterLab
+            case 36:   //  aPowerBox.View.CharacterLab
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Albert.Flex.Runtime.Page10x"));
-                userType.Activator = Activate_33_CharacterLab;
+                userType.Activator = Activate_36_CharacterLab;
                 userType.AddMemberName("State");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 34:   //  aPowerBox.View.CharacterLab.SheetState
+            case 37:   //  aPowerBox.View.CharacterLab.SheetState
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.AddEnumValue("ForntBack", global::aPowerBox.View.CharacterLab.SheetState.ForntBack);
+                userType.AddEnumValue("All", global::aPowerBox.View.CharacterLab.SheetState.All);
+                userType.AddEnumValue("FrontBack", global::aPowerBox.View.CharacterLab.SheetState.FrontBack);
                 userType.AddEnumValue("FrontSide", global::aPowerBox.View.CharacterLab.SheetState.FrontSide);
                 userType.AddEnumValue("BackSide", global::aPowerBox.View.CharacterLab.SheetState.BackSide);
                 userType.AddEnumValue("Front", global::aPowerBox.View.CharacterLab.SheetState.Front);
@@ -540,98 +590,168 @@ namespace aPowerBox.aPowerBox_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 35:   //  System.Enum
+            case 38:   //  System.Enum
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 xamlType = userType;
                 break;
 
-            case 36:   //  aPowerBox.View.MainView
+            case 39:   //  aPowerBox.View.LaunchHub
+                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_39_LaunchHub;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 40:   //  aPowerBox.View.MainView
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Albert.Flex.Runtime.Page10x"));
-                userType.Activator = Activate_36_MainView;
+                userType.Activator = Activate_40_MainView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 37:   //  aPowerBox.View.MapLab
-                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_37_MapLab;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 38:   //  aPowerBox.View.PDfView
-                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_38_PDfView;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 39:   //  aPowerBox.View.QuickNote
-                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_39_QuickNote;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 40:   //  aPowerBox.View.SketchLab
-                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_40_SketchLab;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 41:   //  aPowerBox.View.StartView
+            case 41:   //  aPowerBox.View.MapLab
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Albert.Flex.Runtime.Page10x"));
-                userType.Activator = Activate_41_StartView;
+                userType.Activator = Activate_41_MapLab;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 42:   //  aPowerBox.View.StaticWeb
-                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_42_StaticWeb;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 43:   //  aPowerBox.View.ThemeLab
+            case 42:   //  aPowerBox.View.PDfView
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_43_ThemeLab;
+                userType.Activator = Activate_42_PDfView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 44:   //  aPowerBox.View.WebBanner
+            case 43:   //  aPowerBox.View.QuickNote
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_44_WebBanner;
+                userType.Activator = Activate_43_QuickNote;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 45:   //  aPowerBox.View.WebDevLab
+            case 44:   //  Albert.Flex.Runtime.ColorPicker
+                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Grid"));
+                userType.Activator = Activate_44_ColorPicker;
+                userType.AddMemberName("SpectrePointerColor");
+                userType.AddMemberName("Color");
+                userType.AddMemberName("Brush");
+                userType.AddMemberName("HexCode");
+                userType.AddMemberName("HtmlCode");
+                xamlType = userType;
+                break;
+
+            case 45:   //  Windows.UI.Xaml.Controls.Grid
+                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 46:   //  Windows.UI.Xaml.Controls.Panel
+                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 47:   //  Windows.UI.Xaml.Media.SolidColorBrush
+                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 48:   //  aPowerBox.View.QuickTheme
+                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_48_QuickTheme;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 49:   //  Albert.Flex.Runtime.SketchCanvas
+                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Canvas"));
+                userType.Activator = Activate_49_SketchCanvas;
+                userType.AddMemberName("SketchState");
+                userType.AddMemberName("DrawBrush");
+                userType.AddMemberName("DrawThickness");
+                userType.AddMemberName("DrawOpacity");
+                userType.AddMemberName("StartPenLineCap");
+                userType.AddMemberName("EndPenLineCap");
+                xamlType = userType;
+                break;
+
+            case 50:   //  Windows.UI.Xaml.Controls.Canvas
+                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 51:   //  Albert.Flex.Runtime.SketchState
+                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Draw", global::Albert.Flex.Runtime.SketchState.Draw);
+                userType.AddEnumValue("Line", global::Albert.Flex.Runtime.SketchState.Line);
+                userType.AddEnumValue("Triangle", global::Albert.Flex.Runtime.SketchState.Triangle);
+                userType.AddEnumValue("Rectangle", global::Albert.Flex.Runtime.SketchState.Rectangle);
+                userType.AddEnumValue("Circle", global::Albert.Flex.Runtime.SketchState.Circle);
+                userType.AddEnumValue("Star", global::Albert.Flex.Runtime.SketchState.Star);
+                userType.AddEnumValue("Erase", global::Albert.Flex.Runtime.SketchState.Erase);
+                userType.AddEnumValue("Disabled", global::Albert.Flex.Runtime.SketchState.Disabled);
+                xamlType = userType;
+                break;
+
+            case 52:   //  Windows.UI.Xaml.Media.PenLineCap
+                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 53:   //  aPowerBox.View.SketchLab
+                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Albert.Flex.Runtime.Page10x"));
+                userType.Activator = Activate_53_SketchLab;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 54:   //  aPowerBox.View.StartView
+                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Albert.Flex.Runtime.Page10x"));
+                userType.Activator = Activate_54_StartView;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 55:   //  aPowerBox.View.StaticWeb
+                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_55_StaticWeb;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 56:   //  aPowerBox.View.ThemeLab
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_45_WebDevLab;
+                userType.Activator = Activate_56_ThemeLab;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 46:   //  aPowerBox.View.WPPlug
+            case 57:   //  aPowerBox.View.WebBanner
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_46_WPPlug;
+                userType.Activator = Activate_57_WebBanner;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 47:   //  aPowerBox.View.WPTheme
+            case 58:   //  aPowerBox.View.WPPlug
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_47_WPTheme;
+                userType.Activator = Activate_58_WPPlug;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 48:   //  aPowerBox.View.WriterLab
+            case 59:   //  aPowerBox.View.WPTheme
+                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_59_WPTheme;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 60:   //  aPowerBox.View.WebDevLab
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_48_WriterLab;
+                userType.Activator = Activate_60_WebDevLab;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 61:   //  aPowerBox.View.WriterLab
+                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Albert.Flex.Runtime.Page10x"));
+                userType.Activator = Activate_61_WriterLab;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -834,195 +954,195 @@ namespace aPowerBox.aPowerBox_XamlTypeInfo
             var that = (global::Albert.Flex.Runtime.PushButton)instance;
             that.CornerRadius = (global::Windows.UI.Xaml.CornerRadius)Value;
         }
-        private object get_15_HamburgerButton_ShowSymbol(object instance)
-        {
-            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
-            return that.ShowSymbol;
-        }
-        private void set_15_HamburgerButton_ShowSymbol(object instance, object Value)
-        {
-            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
-            that.ShowSymbol = (global::Windows.UI.Xaml.Visibility)Value;
-        }
-        private object get_16_HamburgerButton_ShowImage(object instance)
-        {
-            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
-            return that.ShowImage;
-        }
-        private void set_16_HamburgerButton_ShowImage(object instance, object Value)
-        {
-            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
-            that.ShowImage = (global::Windows.UI.Xaml.Visibility)Value;
-        }
-        private object get_17_HamburgerButton_IconSource(object instance)
-        {
-            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
-            return that.IconSource;
-        }
-        private void set_17_HamburgerButton_IconSource(object instance, object Value)
-        {
-            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
-            that.IconSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
-        }
-        private object get_18_HamburgerButton_IconStretch(object instance)
-        {
-            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
-            return that.IconStretch;
-        }
-        private void set_18_HamburgerButton_IconStretch(object instance, object Value)
-        {
-            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
-            that.IconStretch = (global::Windows.UI.Xaml.Media.Stretch)Value;
-        }
-        private object get_19_HamburgerButton_Symbol(object instance)
-        {
-            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
-            return that.Symbol;
-        }
-        private void set_19_HamburgerButton_Symbol(object instance, object Value)
-        {
-            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
-            that.Symbol = (global::System.String)Value;
-        }
-        private object get_20_HamburgerButton_Label(object instance)
-        {
-            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
-            return that.Label;
-        }
-        private void set_20_HamburgerButton_Label(object instance, object Value)
-        {
-            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
-            that.Label = (global::System.String)Value;
-        }
-        private object get_21_HamburgerButton_SymbolFontFamily(object instance)
-        {
-            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
-            return that.SymbolFontFamily;
-        }
-        private void set_21_HamburgerButton_SymbolFontFamily(object instance, object Value)
-        {
-            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
-            that.SymbolFontFamily = (global::Windows.UI.Xaml.Media.FontFamily)Value;
-        }
-        private object get_22_OptionButton_NavString(object instance)
-        {
-            var that = (global::Albert.Flex.Runtime.OptionButton)instance;
-            return that.NavString;
-        }
-        private void set_22_OptionButton_NavString(object instance, object Value)
-        {
-            var that = (global::Albert.Flex.Runtime.OptionButton)instance;
-            that.NavString = (global::System.String)Value;
-        }
-        private object get_23_OptionButton_ImgOpacity(object instance)
-        {
-            var that = (global::Albert.Flex.Runtime.OptionButton)instance;
-            return that.ImgOpacity;
-        }
-        private void set_23_OptionButton_ImgOpacity(object instance, object Value)
-        {
-            var that = (global::Albert.Flex.Runtime.OptionButton)instance;
-            that.ImgOpacity = (global::System.Double)Value;
-        }
-        private object get_24_OptionButton_BorderBrushPointerOver(object instance)
-        {
-            var that = (global::Albert.Flex.Runtime.OptionButton)instance;
-            return that.BorderBrushPointerOver;
-        }
-        private void set_24_OptionButton_BorderBrushPointerOver(object instance, object Value)
-        {
-            var that = (global::Albert.Flex.Runtime.OptionButton)instance;
-            that.BorderBrushPointerOver = (global::Windows.UI.Xaml.Media.Brush)Value;
-        }
-        private object get_25_OptionButton_BackgroundPointerOver(object instance)
+        private object get_15_OptionButton_BackgroundPointerOver(object instance)
         {
             var that = (global::Albert.Flex.Runtime.OptionButton)instance;
             return that.BackgroundPointerOver;
         }
-        private void set_25_OptionButton_BackgroundPointerOver(object instance, object Value)
+        private void set_15_OptionButton_BackgroundPointerOver(object instance, object Value)
         {
             var that = (global::Albert.Flex.Runtime.OptionButton)instance;
             that.BackgroundPointerOver = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_26_OptionButton_ForegroundPointerOver(object instance)
+        private object get_16_OptionButton_ForegroundPointerOver(object instance)
         {
             var that = (global::Albert.Flex.Runtime.OptionButton)instance;
             return that.ForegroundPointerOver;
         }
-        private void set_26_OptionButton_ForegroundPointerOver(object instance, object Value)
+        private void set_16_OptionButton_ForegroundPointerOver(object instance, object Value)
         {
             var that = (global::Albert.Flex.Runtime.OptionButton)instance;
             that.ForegroundPointerOver = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_27_OptionButton_OptionVisibility(object instance)
-        {
-            var that = (global::Albert.Flex.Runtime.OptionButton)instance;
-            return that.OptionVisibility;
-        }
-        private void set_27_OptionButton_OptionVisibility(object instance, object Value)
-        {
-            var that = (global::Albert.Flex.Runtime.OptionButton)instance;
-            that.OptionVisibility = (global::Windows.UI.Xaml.Visibility)Value;
-        }
-        private object get_28_OptionButton_BackgroundChecked(object instance)
+        private object get_17_OptionButton_BackgroundChecked(object instance)
         {
             var that = (global::Albert.Flex.Runtime.OptionButton)instance;
             return that.BackgroundChecked;
         }
-        private void set_28_OptionButton_BackgroundChecked(object instance, object Value)
+        private void set_17_OptionButton_BackgroundChecked(object instance, object Value)
         {
             var that = (global::Albert.Flex.Runtime.OptionButton)instance;
             that.BackgroundChecked = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_29_OptionButton_ForegroundChecked(object instance)
+        private object get_18_OptionButton_NavString(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.OptionButton)instance;
+            return that.NavString;
+        }
+        private void set_18_OptionButton_NavString(object instance, object Value)
+        {
+            var that = (global::Albert.Flex.Runtime.OptionButton)instance;
+            that.NavString = (global::System.String)Value;
+        }
+        private object get_19_OptionButton_ImgOpacity(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.OptionButton)instance;
+            return that.ImgOpacity;
+        }
+        private void set_19_OptionButton_ImgOpacity(object instance, object Value)
+        {
+            var that = (global::Albert.Flex.Runtime.OptionButton)instance;
+            that.ImgOpacity = (global::System.Double)Value;
+        }
+        private object get_20_OptionButton_BorderBrushPointerOver(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.OptionButton)instance;
+            return that.BorderBrushPointerOver;
+        }
+        private void set_20_OptionButton_BorderBrushPointerOver(object instance, object Value)
+        {
+            var that = (global::Albert.Flex.Runtime.OptionButton)instance;
+            that.BorderBrushPointerOver = (global::Windows.UI.Xaml.Media.Brush)Value;
+        }
+        private object get_21_OptionButton_OptionVisibility(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.OptionButton)instance;
+            return that.OptionVisibility;
+        }
+        private void set_21_OptionButton_OptionVisibility(object instance, object Value)
+        {
+            var that = (global::Albert.Flex.Runtime.OptionButton)instance;
+            that.OptionVisibility = (global::Windows.UI.Xaml.Visibility)Value;
+        }
+        private object get_22_OptionButton_ForegroundChecked(object instance)
         {
             var that = (global::Albert.Flex.Runtime.OptionButton)instance;
             return that.ForegroundChecked;
         }
-        private void set_29_OptionButton_ForegroundChecked(object instance, object Value)
+        private void set_22_OptionButton_ForegroundChecked(object instance, object Value)
         {
             var that = (global::Albert.Flex.Runtime.OptionButton)instance;
             that.ForegroundChecked = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_30_OptionButton_BorderBrushChecked(object instance)
+        private object get_23_OptionButton_BorderBrushChecked(object instance)
         {
             var that = (global::Albert.Flex.Runtime.OptionButton)instance;
             return that.BorderBrushChecked;
         }
-        private void set_30_OptionButton_BorderBrushChecked(object instance, object Value)
+        private void set_23_OptionButton_BorderBrushChecked(object instance, object Value)
         {
             var that = (global::Albert.Flex.Runtime.OptionButton)instance;
             that.BorderBrushChecked = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_31_OptionButton_CornerRadius(object instance)
+        private object get_24_OptionButton_CornerRadius(object instance)
         {
             var that = (global::Albert.Flex.Runtime.OptionButton)instance;
             return that.CornerRadius;
         }
-        private void set_31_OptionButton_CornerRadius(object instance, object Value)
+        private void set_24_OptionButton_CornerRadius(object instance, object Value)
         {
             var that = (global::Albert.Flex.Runtime.OptionButton)instance;
             that.CornerRadius = (global::Windows.UI.Xaml.CornerRadius)Value;
         }
-        private object get_32_OptionButton_Source(object instance)
+        private object get_25_OptionButton_Source(object instance)
         {
             var that = (global::Albert.Flex.Runtime.OptionButton)instance;
             return that.Source;
         }
-        private void set_32_OptionButton_Source(object instance, object Value)
+        private void set_25_OptionButton_Source(object instance, object Value)
         {
             var that = (global::Albert.Flex.Runtime.OptionButton)instance;
             that.Source = (global::Windows.UI.Xaml.Media.ImageSource)Value;
         }
-        private object get_33_OptionButton_Stretch(object instance)
+        private object get_26_OptionButton_Stretch(object instance)
         {
             var that = (global::Albert.Flex.Runtime.OptionButton)instance;
             return that.Stretch;
         }
-        private void set_33_OptionButton_Stretch(object instance, object Value)
+        private void set_26_OptionButton_Stretch(object instance, object Value)
         {
             var that = (global::Albert.Flex.Runtime.OptionButton)instance;
             that.Stretch = (global::Windows.UI.Xaml.Media.Stretch)Value;
+        }
+        private object get_27_HamburgerButton_ShowSymbol(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
+            return that.ShowSymbol;
+        }
+        private void set_27_HamburgerButton_ShowSymbol(object instance, object Value)
+        {
+            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
+            that.ShowSymbol = (global::Windows.UI.Xaml.Visibility)Value;
+        }
+        private object get_28_HamburgerButton_ShowImage(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
+            return that.ShowImage;
+        }
+        private void set_28_HamburgerButton_ShowImage(object instance, object Value)
+        {
+            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
+            that.ShowImage = (global::Windows.UI.Xaml.Visibility)Value;
+        }
+        private object get_29_HamburgerButton_IconSource(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
+            return that.IconSource;
+        }
+        private void set_29_HamburgerButton_IconSource(object instance, object Value)
+        {
+            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
+            that.IconSource = (global::Windows.UI.Xaml.Media.ImageSource)Value;
+        }
+        private object get_30_HamburgerButton_IconStretch(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
+            return that.IconStretch;
+        }
+        private void set_30_HamburgerButton_IconStretch(object instance, object Value)
+        {
+            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
+            that.IconStretch = (global::Windows.UI.Xaml.Media.Stretch)Value;
+        }
+        private object get_31_HamburgerButton_Symbol(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
+            return that.Symbol;
+        }
+        private void set_31_HamburgerButton_Symbol(object instance, object Value)
+        {
+            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
+            that.Symbol = (global::System.String)Value;
+        }
+        private object get_32_HamburgerButton_Label(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
+            return that.Label;
+        }
+        private void set_32_HamburgerButton_Label(object instance, object Value)
+        {
+            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
+            that.Label = (global::System.String)Value;
+        }
+        private object get_33_HamburgerButton_SymbolFontFamily(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
+            return that.SymbolFontFamily;
+        }
+        private void set_33_HamburgerButton_SymbolFontFamily(object instance, object Value)
+        {
+            var that = (global::Albert.Flex.Runtime.HamburgerButton)instance;
+            that.SymbolFontFamily = (global::Windows.UI.Xaml.Media.FontFamily)Value;
         }
         private object get_34_TextEdit_AcceptsTab(object instance)
         {
@@ -1048,6 +1168,101 @@ namespace aPowerBox.aPowerBox_XamlTypeInfo
         {
             var that = (global::aPowerBox.View.CharacterLab)instance;
             that.State = (global::aPowerBox.View.CharacterLab.SheetState)Value;
+        }
+        private object get_37_ColorPicker_SpectrePointerColor(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.ColorPicker)instance;
+            return that.SpectrePointerColor;
+        }
+        private void set_37_ColorPicker_SpectrePointerColor(object instance, object Value)
+        {
+            var that = (global::Albert.Flex.Runtime.ColorPicker)instance;
+            that.SpectrePointerColor = (global::Windows.UI.Color)Value;
+        }
+        private object get_38_ColorPicker_Color(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.ColorPicker)instance;
+            return that.Color;
+        }
+        private void set_38_ColorPicker_Color(object instance, object Value)
+        {
+            var that = (global::Albert.Flex.Runtime.ColorPicker)instance;
+            that.Color = (global::Windows.UI.Color)Value;
+        }
+        private object get_39_ColorPicker_Brush(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.ColorPicker)instance;
+            return that.Brush;
+        }
+        private object get_40_ColorPicker_HexCode(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.ColorPicker)instance;
+            return that.HexCode;
+        }
+        private object get_41_ColorPicker_HtmlCode(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.ColorPicker)instance;
+            return that.HtmlCode;
+        }
+        private object get_42_SketchCanvas_SketchState(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.SketchCanvas)instance;
+            return that.SketchState;
+        }
+        private void set_42_SketchCanvas_SketchState(object instance, object Value)
+        {
+            var that = (global::Albert.Flex.Runtime.SketchCanvas)instance;
+            that.SketchState = (global::Albert.Flex.Runtime.SketchState)Value;
+        }
+        private object get_43_SketchCanvas_DrawBrush(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.SketchCanvas)instance;
+            return that.DrawBrush;
+        }
+        private void set_43_SketchCanvas_DrawBrush(object instance, object Value)
+        {
+            var that = (global::Albert.Flex.Runtime.SketchCanvas)instance;
+            that.DrawBrush = (global::Windows.UI.Xaml.Media.Brush)Value;
+        }
+        private object get_44_SketchCanvas_DrawThickness(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.SketchCanvas)instance;
+            return that.DrawThickness;
+        }
+        private void set_44_SketchCanvas_DrawThickness(object instance, object Value)
+        {
+            var that = (global::Albert.Flex.Runtime.SketchCanvas)instance;
+            that.DrawThickness = (global::System.Double)Value;
+        }
+        private object get_45_SketchCanvas_DrawOpacity(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.SketchCanvas)instance;
+            return that.DrawOpacity;
+        }
+        private void set_45_SketchCanvas_DrawOpacity(object instance, object Value)
+        {
+            var that = (global::Albert.Flex.Runtime.SketchCanvas)instance;
+            that.DrawOpacity = (global::System.Double)Value;
+        }
+        private object get_46_SketchCanvas_StartPenLineCap(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.SketchCanvas)instance;
+            return that.StartPenLineCap;
+        }
+        private void set_46_SketchCanvas_StartPenLineCap(object instance, object Value)
+        {
+            var that = (global::Albert.Flex.Runtime.SketchCanvas)instance;
+            that.StartPenLineCap = (global::Windows.UI.Xaml.Media.PenLineCap)Value;
+        }
+        private object get_47_SketchCanvas_EndPenLineCap(object instance)
+        {
+            var that = (global::Albert.Flex.Runtime.SketchCanvas)instance;
+            return that.EndPenLineCap;
+        }
+        private void set_47_SketchCanvas_EndPenLineCap(object instance, object Value)
+        {
+            var that = (global::Albert.Flex.Runtime.SketchCanvas)instance;
+            that.EndPenLineCap = (global::Windows.UI.Xaml.Media.PenLineCap)Value;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -1156,138 +1371,138 @@ namespace aPowerBox.aPowerBox_XamlTypeInfo
                 xamlMember.Getter = get_14_PushButton_CornerRadius;
                 xamlMember.Setter = set_14_PushButton_CornerRadius;
                 break;
-            case "Albert.Flex.Runtime.HamburgerButton.ShowSymbol":
-                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.HamburgerButton");
-                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "ShowSymbol", "Windows.UI.Xaml.Visibility");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_15_HamburgerButton_ShowSymbol;
-                xamlMember.Setter = set_15_HamburgerButton_ShowSymbol;
-                break;
-            case "Albert.Flex.Runtime.HamburgerButton.ShowImage":
-                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.HamburgerButton");
-                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "ShowImage", "Windows.UI.Xaml.Visibility");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_16_HamburgerButton_ShowImage;
-                xamlMember.Setter = set_16_HamburgerButton_ShowImage;
-                break;
-            case "Albert.Flex.Runtime.HamburgerButton.IconSource":
-                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.HamburgerButton");
-                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "IconSource", "Windows.UI.Xaml.Media.ImageSource");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_17_HamburgerButton_IconSource;
-                xamlMember.Setter = set_17_HamburgerButton_IconSource;
-                break;
-            case "Albert.Flex.Runtime.HamburgerButton.IconStretch":
-                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.HamburgerButton");
-                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "IconStretch", "Windows.UI.Xaml.Media.Stretch");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_18_HamburgerButton_IconStretch;
-                xamlMember.Setter = set_18_HamburgerButton_IconStretch;
-                break;
-            case "Albert.Flex.Runtime.HamburgerButton.Symbol":
-                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.HamburgerButton");
-                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "Symbol", "String");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_19_HamburgerButton_Symbol;
-                xamlMember.Setter = set_19_HamburgerButton_Symbol;
-                break;
-            case "Albert.Flex.Runtime.HamburgerButton.Label":
-                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.HamburgerButton");
-                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "Label", "String");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_20_HamburgerButton_Label;
-                xamlMember.Setter = set_20_HamburgerButton_Label;
-                break;
-            case "Albert.Flex.Runtime.HamburgerButton.SymbolFontFamily":
-                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.HamburgerButton");
-                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "SymbolFontFamily", "Windows.UI.Xaml.Media.FontFamily");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_21_HamburgerButton_SymbolFontFamily;
-                xamlMember.Setter = set_21_HamburgerButton_SymbolFontFamily;
-                break;
-            case "Albert.Flex.Runtime.OptionButton.NavString":
-                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.OptionButton");
-                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "NavString", "String");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_22_OptionButton_NavString;
-                xamlMember.Setter = set_22_OptionButton_NavString;
-                break;
-            case "Albert.Flex.Runtime.OptionButton.ImgOpacity":
-                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.OptionButton");
-                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "ImgOpacity", "Double");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_23_OptionButton_ImgOpacity;
-                xamlMember.Setter = set_23_OptionButton_ImgOpacity;
-                break;
-            case "Albert.Flex.Runtime.OptionButton.BorderBrushPointerOver":
-                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.OptionButton");
-                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "BorderBrushPointerOver", "Windows.UI.Xaml.Media.Brush");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_24_OptionButton_BorderBrushPointerOver;
-                xamlMember.Setter = set_24_OptionButton_BorderBrushPointerOver;
-                break;
             case "Albert.Flex.Runtime.OptionButton.BackgroundPointerOver":
                 userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.OptionButton");
                 xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "BackgroundPointerOver", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_25_OptionButton_BackgroundPointerOver;
-                xamlMember.Setter = set_25_OptionButton_BackgroundPointerOver;
+                xamlMember.Getter = get_15_OptionButton_BackgroundPointerOver;
+                xamlMember.Setter = set_15_OptionButton_BackgroundPointerOver;
                 break;
             case "Albert.Flex.Runtime.OptionButton.ForegroundPointerOver":
                 userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.OptionButton");
                 xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "ForegroundPointerOver", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_26_OptionButton_ForegroundPointerOver;
-                xamlMember.Setter = set_26_OptionButton_ForegroundPointerOver;
-                break;
-            case "Albert.Flex.Runtime.OptionButton.OptionVisibility":
-                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.OptionButton");
-                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "OptionVisibility", "Windows.UI.Xaml.Visibility");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_27_OptionButton_OptionVisibility;
-                xamlMember.Setter = set_27_OptionButton_OptionVisibility;
+                xamlMember.Getter = get_16_OptionButton_ForegroundPointerOver;
+                xamlMember.Setter = set_16_OptionButton_ForegroundPointerOver;
                 break;
             case "Albert.Flex.Runtime.OptionButton.BackgroundChecked":
                 userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.OptionButton");
                 xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "BackgroundChecked", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_28_OptionButton_BackgroundChecked;
-                xamlMember.Setter = set_28_OptionButton_BackgroundChecked;
+                xamlMember.Getter = get_17_OptionButton_BackgroundChecked;
+                xamlMember.Setter = set_17_OptionButton_BackgroundChecked;
+                break;
+            case "Albert.Flex.Runtime.OptionButton.NavString":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.OptionButton");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "NavString", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_18_OptionButton_NavString;
+                xamlMember.Setter = set_18_OptionButton_NavString;
+                break;
+            case "Albert.Flex.Runtime.OptionButton.ImgOpacity":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.OptionButton");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "ImgOpacity", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_19_OptionButton_ImgOpacity;
+                xamlMember.Setter = set_19_OptionButton_ImgOpacity;
+                break;
+            case "Albert.Flex.Runtime.OptionButton.BorderBrushPointerOver":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.OptionButton");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "BorderBrushPointerOver", "Windows.UI.Xaml.Media.Brush");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_20_OptionButton_BorderBrushPointerOver;
+                xamlMember.Setter = set_20_OptionButton_BorderBrushPointerOver;
+                break;
+            case "Albert.Flex.Runtime.OptionButton.OptionVisibility":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.OptionButton");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "OptionVisibility", "Windows.UI.Xaml.Visibility");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_21_OptionButton_OptionVisibility;
+                xamlMember.Setter = set_21_OptionButton_OptionVisibility;
                 break;
             case "Albert.Flex.Runtime.OptionButton.ForegroundChecked":
                 userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.OptionButton");
                 xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "ForegroundChecked", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_29_OptionButton_ForegroundChecked;
-                xamlMember.Setter = set_29_OptionButton_ForegroundChecked;
+                xamlMember.Getter = get_22_OptionButton_ForegroundChecked;
+                xamlMember.Setter = set_22_OptionButton_ForegroundChecked;
                 break;
             case "Albert.Flex.Runtime.OptionButton.BorderBrushChecked":
                 userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.OptionButton");
                 xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "BorderBrushChecked", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_30_OptionButton_BorderBrushChecked;
-                xamlMember.Setter = set_30_OptionButton_BorderBrushChecked;
+                xamlMember.Getter = get_23_OptionButton_BorderBrushChecked;
+                xamlMember.Setter = set_23_OptionButton_BorderBrushChecked;
                 break;
             case "Albert.Flex.Runtime.OptionButton.CornerRadius":
                 userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.OptionButton");
                 xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "CornerRadius", "Windows.UI.Xaml.CornerRadius");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_31_OptionButton_CornerRadius;
-                xamlMember.Setter = set_31_OptionButton_CornerRadius;
+                xamlMember.Getter = get_24_OptionButton_CornerRadius;
+                xamlMember.Setter = set_24_OptionButton_CornerRadius;
                 break;
             case "Albert.Flex.Runtime.OptionButton.Source":
                 userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.OptionButton");
                 xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "Source", "Windows.UI.Xaml.Media.ImageSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_32_OptionButton_Source;
-                xamlMember.Setter = set_32_OptionButton_Source;
+                xamlMember.Getter = get_25_OptionButton_Source;
+                xamlMember.Setter = set_25_OptionButton_Source;
                 break;
             case "Albert.Flex.Runtime.OptionButton.Stretch":
                 userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.OptionButton");
                 xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "Stretch", "Windows.UI.Xaml.Media.Stretch");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_33_OptionButton_Stretch;
-                xamlMember.Setter = set_33_OptionButton_Stretch;
+                xamlMember.Getter = get_26_OptionButton_Stretch;
+                xamlMember.Setter = set_26_OptionButton_Stretch;
+                break;
+            case "Albert.Flex.Runtime.HamburgerButton.ShowSymbol":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.HamburgerButton");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "ShowSymbol", "Windows.UI.Xaml.Visibility");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_27_HamburgerButton_ShowSymbol;
+                xamlMember.Setter = set_27_HamburgerButton_ShowSymbol;
+                break;
+            case "Albert.Flex.Runtime.HamburgerButton.ShowImage":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.HamburgerButton");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "ShowImage", "Windows.UI.Xaml.Visibility");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_28_HamburgerButton_ShowImage;
+                xamlMember.Setter = set_28_HamburgerButton_ShowImage;
+                break;
+            case "Albert.Flex.Runtime.HamburgerButton.IconSource":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.HamburgerButton");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "IconSource", "Windows.UI.Xaml.Media.ImageSource");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_29_HamburgerButton_IconSource;
+                xamlMember.Setter = set_29_HamburgerButton_IconSource;
+                break;
+            case "Albert.Flex.Runtime.HamburgerButton.IconStretch":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.HamburgerButton");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "IconStretch", "Windows.UI.Xaml.Media.Stretch");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_30_HamburgerButton_IconStretch;
+                xamlMember.Setter = set_30_HamburgerButton_IconStretch;
+                break;
+            case "Albert.Flex.Runtime.HamburgerButton.Symbol":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.HamburgerButton");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "Symbol", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_31_HamburgerButton_Symbol;
+                xamlMember.Setter = set_31_HamburgerButton_Symbol;
+                break;
+            case "Albert.Flex.Runtime.HamburgerButton.Label":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.HamburgerButton");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "Label", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_32_HamburgerButton_Label;
+                xamlMember.Setter = set_32_HamburgerButton_Label;
+                break;
+            case "Albert.Flex.Runtime.HamburgerButton.SymbolFontFamily":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.HamburgerButton");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "SymbolFontFamily", "Windows.UI.Xaml.Media.FontFamily");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_33_HamburgerButton_SymbolFontFamily;
+                xamlMember.Setter = set_33_HamburgerButton_SymbolFontFamily;
                 break;
             case "Albert.Flex.Runtime.TextEdit.AcceptsTab":
                 userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.TextEdit");
@@ -1307,6 +1522,80 @@ namespace aPowerBox.aPowerBox_XamlTypeInfo
                 xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "State", "aPowerBox.View.CharacterLab.SheetState");
                 xamlMember.Getter = get_36_CharacterLab_State;
                 xamlMember.Setter = set_36_CharacterLab_State;
+                break;
+            case "Albert.Flex.Runtime.ColorPicker.SpectrePointerColor":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.ColorPicker");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "SpectrePointerColor", "Windows.UI.Color");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_37_ColorPicker_SpectrePointerColor;
+                xamlMember.Setter = set_37_ColorPicker_SpectrePointerColor;
+                break;
+            case "Albert.Flex.Runtime.ColorPicker.Color":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.ColorPicker");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "Color", "Windows.UI.Color");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_38_ColorPicker_Color;
+                xamlMember.Setter = set_38_ColorPicker_Color;
+                break;
+            case "Albert.Flex.Runtime.ColorPicker.Brush":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.ColorPicker");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "Brush", "Windows.UI.Xaml.Media.SolidColorBrush");
+                xamlMember.Getter = get_39_ColorPicker_Brush;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Albert.Flex.Runtime.ColorPicker.HexCode":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.ColorPicker");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "HexCode", "String");
+                xamlMember.Getter = get_40_ColorPicker_HexCode;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Albert.Flex.Runtime.ColorPicker.HtmlCode":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.ColorPicker");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "HtmlCode", "String");
+                xamlMember.Getter = get_41_ColorPicker_HtmlCode;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Albert.Flex.Runtime.SketchCanvas.SketchState":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.SketchCanvas");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "SketchState", "Albert.Flex.Runtime.SketchState");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_42_SketchCanvas_SketchState;
+                xamlMember.Setter = set_42_SketchCanvas_SketchState;
+                break;
+            case "Albert.Flex.Runtime.SketchCanvas.DrawBrush":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.SketchCanvas");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "DrawBrush", "Windows.UI.Xaml.Media.Brush");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_43_SketchCanvas_DrawBrush;
+                xamlMember.Setter = set_43_SketchCanvas_DrawBrush;
+                break;
+            case "Albert.Flex.Runtime.SketchCanvas.DrawThickness":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.SketchCanvas");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "DrawThickness", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_44_SketchCanvas_DrawThickness;
+                xamlMember.Setter = set_44_SketchCanvas_DrawThickness;
+                break;
+            case "Albert.Flex.Runtime.SketchCanvas.DrawOpacity":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.SketchCanvas");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "DrawOpacity", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_45_SketchCanvas_DrawOpacity;
+                xamlMember.Setter = set_45_SketchCanvas_DrawOpacity;
+                break;
+            case "Albert.Flex.Runtime.SketchCanvas.StartPenLineCap":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.SketchCanvas");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "StartPenLineCap", "Windows.UI.Xaml.Media.PenLineCap");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_46_SketchCanvas_StartPenLineCap;
+                xamlMember.Setter = set_46_SketchCanvas_StartPenLineCap;
+                break;
+            case "Albert.Flex.Runtime.SketchCanvas.EndPenLineCap":
+                userType = (global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Albert.Flex.Runtime.SketchCanvas");
+                xamlMember = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlMember(this, "EndPenLineCap", "Windows.UI.Xaml.Media.PenLineCap");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_47_SketchCanvas_EndPenLineCap;
+                xamlMember.Setter = set_47_SketchCanvas_EndPenLineCap;
                 break;
             }
             return xamlMember;

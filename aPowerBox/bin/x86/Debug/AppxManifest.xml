@@ -33,22 +33,44 @@
         </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#222222" />
       </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.fileSavePicker">
+          <uap:FileSavePicker>
+            <uap:SupportedFileTypes>
+              <uap:SupportsAnyFileType />
+            </uap:SupportedFileTypes>
+          </uap:FileSavePicker>
+        </uap:Extension>
+        <uap:Extension Category="windows.fileOpenPicker">
+          <uap:FileOpenPicker>
+            <uap:SupportedFileTypes>
+              <uap:SupportsAnyFileType />
+            </uap:SupportedFileTypes>
+          </uap:FileOpenPicker>
+        </uap:Extension>
+      </Extensions>
     </Application>
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
+    <Capability Name="internetClientServer" />
+    <uap:Capability Name="picturesLibrary" />
+    <uap:Capability Name="objects3D" />
+    <uap:Capability Name="removableStorage" />
     <DeviceCapability Name="location" />
   </Capabilities>
   <build:Metadata>
+    <build:Item Name="SharedGUID" Value="2822a41f-e7c7-4291-9e18-53e3e4696804" />
+    <build:Item Name="CodeSharingProject" Value="248F659F-DAC5-46E8-AC09-60EC9FC95053" />
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
     <build:Item Name="VisualStudio" Version="15.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2017 RC" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2017" />
     <build:Item Name="OperatingSystem" Version="10.0.14393.0 (rs1_release.160715-1616)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.26109.1" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.26228.0" />
     <build:Item Name="ProjectGUID" Value="{AAA3D22F-3569-4944-AF27-8793B810F88E}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
-    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.26109.1" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.26228.0" />
     <build:Item Name="WindowsMobile" Version="10.0.14393.0" />
     <build:Item Name="MakePri.exe" Version="10.0.14393.795 (rs1_release_sec.170105-1850)" />
   </build:Metadata>

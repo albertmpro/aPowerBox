@@ -8,26 +8,32 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource AccentBrush4}">
-		<ScrollViewer>
-		<StackPanel>
-			<TextBlock FontSize="35"  TextAlignment="Center" >
-				<Run FontSize="45" FontWeight="Black">aPowerBox</Run>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="30" />
+			<RowDefinition />
+		</Grid.RowDefinitions>
+		<Hub x:Name="mainHub" Grid.Row="1" Header="aPowerBox">
+			<HubSection Width="450" Header="Quick Note">
+				<DataTemplate>
+					<Grid>
+						<local:QuickNote x:Name="note" />
+					</Grid>
+				</DataTemplate>
+			</HubSection>
 			
-				<LineBreak />
-				<Run FontWeight="Bold">Quick  Launch </Run>
-				
-			</TextBlock>
-			<HyperlinkButton ToolTipService.ToolTip="Character Lab" Tag="character" Content="Character Lab" />
-			<HyperlinkButton ToolTipService.ToolTip="Map Lab"  Tag="map" Content="Map Lab" />
-			<HyperlinkButton ToolTipService.ToolTip="PDF Lab"  Tag="pdf" Content="PDF Lab" />
-			<HyperlinkButton ToolTipService.ToolTip="Sketch Lab"  Tag="sketch" Content="Sketch Lab" />
-
-			<HyperlinkButton ToolTipService.ToolTip="Theme Lab"  Tag="theme" Content="Theme Lab" />
-			<HyperlinkButton ToolTipService.ToolTip="WebDev Lab"  Tag="web" Content="WebDev Lab" />
-
-			<HyperlinkButton ToolTipService.ToolTip="Writer Lab"  Tag="writer" Content="Writer Lab" />
-			<local:QuickNote />
-		</StackPanel>
-		</ScrollViewer>
+			<HubSection Width="350" Header="Launch">
+			
+				<DataTemplate>
+					<Grid>
+					<local:LaunchHub  x:Name="launch" HorizontalAlignment="Center" /></Grid>
+				</DataTemplate>
+			</HubSection>
+			
+			<HubSection Width="550"  Header="Quick Theme" >
+				<DataTemplate>
+					<local:QuickTheme />
+				</DataTemplate>
+			</HubSection>
+		</Hub>
     </Grid>
 </c:Page10x>

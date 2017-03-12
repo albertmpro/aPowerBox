@@ -1,0 +1,1 @@
+C:\AMB\aSoftware\aCore\aPowerBox\aPowerFlow\aPowerFlow.csproj;x86
