@@ -1,0 +1,37 @@
+﻿<c:Page10x
+    x:Class="aPowerBox.View.WriterLab"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:aPowerBox.View"
+	xmlns:c="using:Albert.Flex.Runtime"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource AccentBrush4}">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="auto" />
+			<RowDefinition />
+		</Grid.RowDefinitions>
+		<c:CmdBar x:ConnectionId='1' x:Name="cmdBar">
+			<c:CmdButton x:ConnectionId='3'                   Label="New" Icon="NewFolder" />
+			<c:CmdButton x:ConnectionId='4'                   Label="Save" Icon="Save" />
+			<c:CmdButton Label="Settings">
+				<c:CmdButton.Icon>
+					<BitmapIcon UriSource="ms-appx:///Assets/appbar/settings.png"/>
+				</c:CmdButton.Icon>
+				<c:CmdButton.Flyout>
+					<Flyout>
+					<StackPanel Background="{StaticResource AccentBrush4}">				<ComboBox x:ConnectionId='5' Header="Font Family" x:Name="cmbFont" Width="180">
+							<ComboBoxItem Content="Arial" />
+							<ComboBoxItem Content="Consolas" />
+							<ComboBoxItem Content="Segoe UI" />
+						</ComboBox></StackPanel>
+					</Flyout>
+				</c:CmdButton.Flyout>
+			</c:CmdButton>
+		</c:CmdBar>
+		<c:TextEdit x:ConnectionId='2' FontFamily="Consolas" x:Name="txt" Grid.Row="1" />
+	</Grid>
+</c:Page10x>
+

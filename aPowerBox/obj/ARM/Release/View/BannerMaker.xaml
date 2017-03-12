@@ -1,0 +1,65 @@
+﻿<UserControl
+    x:Class="aPowerBox.View.BannerMaker"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+xmlns:c="using:Albert.Flex.Runtime"    xmlns:local="using:aFlexToolbox.View.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="600"
+    d:DesignWidth="960">
+	<ScrollViewer>
+    <Grid Background="{StaticResource AccentBrush4}"> 
+		<Grid.RowDefinitions>
+			<RowDefinition Height="auto" />
+			<RowDefinition Height="auto" />
+			<RowDefinition Height="auto" />
+			<RowDefinition Height="auto" />
+		</Grid.RowDefinitions>
+
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition  />
+			<ColumnDefinition />
+		</Grid.ColumnDefinitions>
+		<!-- View of the banner -->
+		<Viewbox Margin="12" Height="250"  VerticalAlignment="Top" Stretch="Uniform" Grid.ColumnSpan="2">
+			<Grid Background="White">
+				<Grid x:ConnectionId='9' x:Name="gridImg" Margin="15">
+				
+				<Image x:ConnectionId='10'  Stretch="UniformToFill"  x:Name="img" Width="1920" Height="300" />
+				
+				</Grid>
+			</Grid>
+		</Viewbox>
+
+	<TextBlock x:ConnectionId='1' FontSize="25" x:Name="tbBannerSize" TextAlignment="Center"  Grid.Row="1">
+			<Run Text="Banner Properties" FontSize="20" />
+			<LineBreak />
+			<Run Text="Width: " />
+			<Run x:ConnectionId='7' x:Name="runWidht" Text="{Binding ElementName=img, Path=Width}"  />
+			<Run Text="px  " />
+			
+				<Run Text="Height: : " />
+			<Run x:ConnectionId='8' x:Name="runHeight" Text="{Binding ElementName=img, Path=Height}"  />
+			<Run Text="px  " />
+		</TextBlock>
+		<StackPanel Orientation="Horizontal"  Grid.Row="1"				Grid.Column="1">
+			<ComboBox x:ConnectionId='5' Width="200" x:Name="cmbImageType" VerticalAlignment="Center"                                                  Margin="7" Header="Image Type"> 
+				<ComboBoxItem Content="None"  />
+				<ComboBoxItem Content="Fill"  />
+				<ComboBoxItem Content="Uniform"  />
+				<ComboBoxItem Content="UniformToFill"  />
+			</ComboBox>
+		
+		<c:PushButton x:ConnectionId='6'   Content="Load Image" x:Name="btnLoad"                          HorizontalAlignment="Right" />
+		</StackPanel>
+		<StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Center" Grid.ColumnSpan="2">
+
+			<Slider x:ConnectionId='3' x:Name="slideWidth" Minimum="480" Value="{Binding ElementName=gridImg, Path=Width}"                                     Maximum="1920" Tag="width"  Header="Width:" Width="200" />
+			<Slider x:ConnectionId='4' x:Name="slideHeight" Minimum="20" Tag="height" Value="{Binding ElementName=gridImg, Path=Height}"  Maximum="400"                                    Header="Height:" Width="200" />
+		</StackPanel>
+
+		<c:PushButton x:ConnectionId='2' Grid.Row="3" Grid.ColumnSpan="2" Content="Export"                         x:Name="btnExport" />
+	</Grid></ScrollViewer>
+</UserControl>
+

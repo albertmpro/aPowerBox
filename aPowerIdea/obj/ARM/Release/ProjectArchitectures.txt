@@ -1,0 +1,4 @@
+C:\AMB\aSoftware\aCore\aPowerBox\AlbertFlex\AlbertFlex.csproj;neutral
+C:\AMB\aSoftware\aCore\aPowerBox\AlbertFlex\AlbertFlex.csproj;neutral
+C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\AlbertRun.csproj;arm
+C:\AMB\aSoftware\aCore\aPowerBox\aPowerIdea\aPowerIdea.csproj;arm

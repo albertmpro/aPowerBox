@@ -29,6 +29,10 @@ namespace aPowerBox.View
 		{
 			this.InitializeComponent();
 		}
+
+
+
+
 		private void cmb_SelectionChanged(object sender, SelectionChangedEventArgs e)
 		{
 			switch (cmb.SelectedIndex)
