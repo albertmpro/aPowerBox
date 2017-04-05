@@ -370,7 +370,7 @@
     <AppxPackagedFile Include="C:\AMB\aSoftware\aCore\aPowerBox\AlbertFlex\bin\Release\AlbertFlex.dll">
       <PackagePath>AlbertFlex.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\bin\x86\Release\AlbertRun.dll">
+    <AppxPackagedFile Include="C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\bin\Release\AlbertRun.dll">
       <PackagePath>AlbertRun.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\Assets\appbar\about.png">
@@ -787,7 +787,7 @@
     <AppxPackagedFile Include="C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\bin\x86\Release\aPowerBox.xr.xml">
       <PackagePath>aPowerBox.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\bin\x86\Release\AlbertRun.xr.xml">
+    <AppxPackagedFile Include="C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\bin\Release\AlbertRun.xr.xml">
       <PackagePath>AlbertRun\AlbertRun.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">

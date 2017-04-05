@@ -13,6 +13,13 @@
 			<RowDefinition />
 		</Grid.RowDefinitions>
 		<Hub x:Name="mainHub" Grid.Row="1" Header="aPowerBox">
+			
+				<HubSection Width="550"  Header="Quick Theme" >
+				<DataTemplate>
+					<local:QuickTheme />
+				</DataTemplate>
+			</HubSection>		
+			
 			<HubSection Width="450" Header="Quick Note">
 				<DataTemplate>
 					<Grid>
@@ -20,6 +27,9 @@
 					</Grid>
 				</DataTemplate>
 			</HubSection>
+
+			
+			
 			
 			<HubSection Width="350" Header="Launch">
 			
@@ -29,11 +39,6 @@
 				</DataTemplate>
 			</HubSection>
 			
-			<HubSection Width="550"  Header="Quick Theme" >
-				<DataTemplate>
-					<local:QuickTheme />
-				</DataTemplate>
-			</HubSection>
 		</Hub>
     </Grid>
 </c:Page10x>

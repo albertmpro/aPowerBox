@@ -20,6 +20,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Pivot">
       <RootProperty Name="HeaderTemplate" />
+      <RootProperty Name="Items" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Hub">
       <RootProperty Name="HeaderTemplate" />
@@ -46,6 +47,7 @@
       <RootProperty Name="Label" />
       <RootProperty Name="Icon" />
       <RootProperty Name="Flyout" />
+      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Albert.Flex.Runtime.PushButton">
       <RootProperty Name="BackgroundPointerOver" />
@@ -53,6 +55,9 @@
       <RootProperty Name="BackgroundPressed" />
       <RootProperty Name="Content" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Width" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.FrameworkElement">
@@ -107,6 +112,7 @@
     <RootType FullName="Albert.Flex.Runtime.TextEdit">
       <RootProperty Name="Header" />
       <RootProperty Name="Height" />
+      <RootProperty Name="FontFamily" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RichEditBox">
       <RootProperty Name="HeaderTemplate" />
@@ -157,6 +163,8 @@
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
     </RootType>
     <RootType FullName="aPowerBox.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
@@ -169,7 +177,9 @@
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Viewbox">
       <RootProperty Name="Margin" />
       <RootProperty Name="Height" />
@@ -183,6 +193,7 @@
       <RootProperty Name="Children" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Height" />
+      <RootProperty Name="Background" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBoxItem">
       <RootProperty Name="Content" />
@@ -210,6 +221,9 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
     <RootType FullName="aPowerBox.View.MainView" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Maps.MapControl">
+      <RootProperty Name="MapServiceToken" />
+    </RootType>
     <RootType FullName="aPowerBox.View.MapLab" />
     <RootType FullName="aPowerBox.View.PDfView" />
     <RootType FullName="aPowerBox.View.QuickNote" />
@@ -246,9 +260,14 @@
     <RootType FullName="aPowerBox.View.StaticWeb" />
     <RootType FullName="aPowerBox.View.ThemeLab" />
     <RootType FullName="aPowerBox.View.WebBanner" />
-    <RootType FullName="aPowerBox.View.WebDevLab" />
+    <RootType FullName="Windows.UI.Xaml.Controls.PivotItem">
+      <RootProperty Name="Header" />
+      <RootProperty Name="Content" />
+    </RootType>
     <RootType FullName="aPowerBox.View.WPPlug" />
     <RootType FullName="aPowerBox.View.WPTheme" />
+    <RootType FullName="aPowerBox.View.WebDevLab" />
     <RootType FullName="aPowerBox.View.WriterLab" />
+    <RootType FullName="AMUwp.QuickTheme" />
   </Roots.RootTypes>
 </Roots>

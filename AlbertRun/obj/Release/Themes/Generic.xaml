@@ -6,7 +6,11 @@
 
 
 
-
+	<Style TargetType="runtime:PDFViewer">
+		<Setter Property="HorizontalAlignment" Value="Stretch" />
+		<Setter Property="VerticalAlignment" Value="Stretch" />
+		
+	</Style>
 
 	<Style TargetType="runtime:ThemeControl">
 		<Setter Property="Template">
@@ -79,7 +83,7 @@
 						</VisualStateManager.VisualStateGroups>
 
 						<StackPanel  Orientation="Horizontal"  Name="BackgroundGrid" Background="Transparent" VerticalAlignment="Stretch">
-							<Image x:Name="imgIcon" Source="{TemplateBinding IconSource}" Stretch="{TemplateBinding IconStretch}" />
+							<Image x:Name="imgIcon" Visibility="{TemplateBinding ShowImage}" Height="40" Width="40" Source="{TemplateBinding IconSource}" Stretch="{TemplateBinding IconStretch}" />
 							<TextBlock x:Name="tbSymbol" FontSize="{TemplateBinding FontSize}" Visibility="{TemplateBinding ShowSymbol}" Height="38" Foreground="{TemplateBinding Foreground}" Text="{TemplateBinding Symbol}" FontFamily="{TemplateBinding SymbolFontFamily}" 
 						 Margin="5,8,5,5" VerticalAlignment="Center" HorizontalAlignment="Center"/>
 							<TextBlock  x:Name="ContentPresenter" FontSize="{TemplateBinding FontSize}" Text="{TemplateBinding Label}" HorizontalAlignment="Left" Margin="5,0,5,10"    VerticalAlignment="Center"/>
@@ -463,33 +467,6 @@
 	</Style>
 
 
-	<Style TargetType="runtime:VControl">
-		<Setter Property="Template">
-			<Setter.Value>
-
-				<ControlTemplate TargetType="runtime:VControl">
-					<Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
-						<Grid>
-
-
-
-							<!--Main Content-->
-							<ContentPresenter Content="{TemplateBinding Content}" Grid.Row="1" Grid.Column="1" />
-
-
-
-
-
-
-						</Grid>
-					</Border>
-				</ControlTemplate>
-			</Setter.Value>
-
-		</Setter>
-
-	</Style>
-
 
 	<Style TargetType="runtime:SlideColorPicker">
 		<Setter Property="Width" Value="300" />
@@ -567,6 +544,7 @@
 			</Setter.Value>
 		</Setter>
 	</Style>
+
 
 
 

@@ -31,7 +31,19 @@ namespace aPowerIdea.View
 			this.InitializeComponent();
 		}
 
-	
+		protected override void OnNavigatedTo(NavigationEventArgs e)
+		{
+			base.OnNavigatedTo(e);
+			HardwareButtons.BackPressed += On_PhoneGoBack;
+		}
+
+		protected override void OnNavigatingFrom(NavigatingCancelEventArgs e)
+		{
+			base.OnNavigatingFrom(e);
+			HardwareButtons.BackPressed -= On_PhoneGoBack;
+		}
+
+
 
 		private void cmb_SelectionChanged(object sender, SelectionChangedEventArgs e)
 		{

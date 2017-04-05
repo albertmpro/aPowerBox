@@ -34,6 +34,8 @@ namespace aPowerBox.View
 			// save click  
 			btnSave.Click += save_Click;
 
+		
+
 		}
 
 		async void load_Click(object sender, RoutedEventArgs e)

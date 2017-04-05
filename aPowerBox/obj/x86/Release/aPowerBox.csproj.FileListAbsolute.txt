@@ -1,5 +1,4 @@
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\bin\x86\Release\App.xbf
-C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\bin\x86\Release\MainPage.xbf
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\bin\x86\Release\View\CharacterLab.xbf
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\bin\x86\Release\View\MainView.xbf
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\bin\x86\Release\View\MapLab.xbf
@@ -139,8 +138,6 @@ C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\bin\x86\Release\AlbertRun.pri
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\aPowerBox.csprojResolveAssemblyReference.cache
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\App.g.i.cs
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\App.g.cs
-C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\MainPage.g.i.cs
-C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\MainPage.g.cs
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\View\CharacterLab.g.i.cs
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\View\CharacterLab.g.cs
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\View\MainView.g.i.cs
@@ -171,7 +168,6 @@ C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\View\WriterLab.g.i.cs
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\View\WriterLab.g.cs
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\XamlTypeInfo.g.cs
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\App.xaml
-C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\MainPage.xaml
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\View\CharacterLab.xaml
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\View\MainView.xaml
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\View\MapLab.xaml
@@ -187,7 +183,6 @@ C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\View\WPPlug.xaml
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\View\WPTheme.xaml
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\View\WriterLab.xaml
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\App.xbf
-C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\MainPage.xbf
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\View\CharacterLab.xbf
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\View\MainView.xbf
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\View\MapLab.xbf
@@ -313,3 +308,8 @@ C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\View\QuickTheme.g.cs
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\View\QuickTheme.xaml
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\View\QuickTheme.xbf
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\bin\x86\Release\View\QuickTheme.xbf
+C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\QuickTheme.g.i.cs
+C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\QuickTheme.g.cs
+C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\QuickTheme.xaml
+C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\obj\x86\Release\QuickTheme.xbf
+C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\bin\x86\Release\QuickTheme.xbf

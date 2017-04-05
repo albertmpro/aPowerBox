@@ -6,6 +6,12 @@
 
 
 
+	<Style TargetType="runtime:PDFViewer">
+		<Setter Property="HorizontalAlignment" Value="Stretch" />
+		<Setter Property="VerticalAlignment" Value="Stretch" />
+		
+	</Style>
+
 	<Style TargetType="runtime:ThemeControl">
 		<Setter Property="Template">
 			<Setter.Value>
@@ -77,7 +83,7 @@
 						</VisualStateManager.VisualStateGroups>
 
 						<StackPanel  Orientation="Horizontal"  Name="BackgroundGrid" Background="Transparent" VerticalAlignment="Stretch">
-							<Image x:Name="imgIcon" Source="{TemplateBinding IconSource}" Stretch="{TemplateBinding IconStretch}" />
+							<Image x:Name="imgIcon" Visibility="{TemplateBinding ShowImage}" Height="40" Width="40" Source="{TemplateBinding IconSource}" Stretch="{TemplateBinding IconStretch}" />
 							<TextBlock x:Name="tbSymbol" FontSize="{TemplateBinding FontSize}" Visibility="{TemplateBinding ShowSymbol}" Height="38" Foreground="{TemplateBinding Foreground}" Text="{TemplateBinding Symbol}" FontFamily="{TemplateBinding SymbolFontFamily}" 
 						 Margin="5,8,5,5" VerticalAlignment="Center" HorizontalAlignment="Center"/>
 							<TextBlock  x:Name="ContentPresenter" FontSize="{TemplateBinding FontSize}" Text="{TemplateBinding Label}" HorizontalAlignment="Left" Margin="5,0,5,10"    VerticalAlignment="Center"/>
@@ -461,35 +467,11 @@
 	</Style>
 
 
-	<Style TargetType="runtime:VControl">
-		<Setter Property="Template">
-			<Setter.Value>
-
-				<ControlTemplate TargetType="runtime:VControl">
-					<Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
-						<Grid>
-
-
-
-							<!--Main Content-->
-							<ContentPresenter Content="{TemplateBinding Content}" Grid.Row="1" Grid.Column="1" />
-
-
-
-
-
-
-						</Grid>
-					</Border>
-				</ControlTemplate>
-			</Setter.Value>
-
-		</Setter>
-
-	</Style>
-
 
 	<Style TargetType="runtime:SlideColorPicker">
+		<Setter Property="Width" Value="300" />
+		<Setter Property="ListWidth" Value="300" />
+		<Setter Property="ListHeight" Value="300" />
 		<Setter Property="Template">
 			<Setter.Value>
 				<ControlTemplate TargetType="runtime:SlideColorPicker">
@@ -497,61 +479,62 @@
                         Background="{TemplateBinding Background}"
                         BorderBrush="{TemplateBinding BorderBrush}"
                         BorderThickness="{TemplateBinding BorderThickness}">
-						<Grid>
-							<Grid.RowDefinitions>
-								<RowDefinition Height="40" />
-								<RowDefinition Height="40" />
-								<RowDefinition Height="40" />
-								<RowDefinition Height="auto" />
-							</Grid.RowDefinitions>
-							<Grid.ColumnDefinitions>
-								<ColumnDefinition Width="Auto" />
-								<ColumnDefinition />
-								<ColumnDefinition  Width="Auto" />
-							</Grid.ColumnDefinitions>
-							<TextBlock Margin="7" Foreground="{TemplateBinding Foreground}" VerticalAlignment="Center" FontSize="18" Grid.Row="0"  Text="R" />
-							<TextBlock Margin="7" Foreground="{TemplateBinding Foreground}" VerticalAlignment="Center" FontSize="18" Grid.Row="1"  Text="G" />
-							<TextBlock Margin="7" Foreground="{TemplateBinding Foreground}" VerticalAlignment="Center"  FontSize="18" Grid.Row="2" Text="B" />
-							<Slider x:Name="PART_SlideRed" Value="33" StepFrequency=".2" Minimum="0" Maximum="255" Grid.Row="0" Grid.Column="1"  />
-							<Slider x:Name="PART_SlideGreen"  Value="33" StepFrequency=".2"  Minimum="0" Maximum="255" Grid.Row="1" Grid.Column="1"  />
-							<Slider x:Name="PART_SlideBlue"  Value="33" StepFrequency=".2"  Minimum="0" Maximum="255" Grid.Row="2" Grid.Column="1"  />
+					
+							<Grid>
+								<Grid.RowDefinitions>
+									<RowDefinition Height="auto" />
+									<RowDefinition Height="auto" />
+									<RowDefinition Height="auto" />
+									<RowDefinition Height="auto" />
+								</Grid.RowDefinitions>
+								<Grid.ColumnDefinitions>
+									<ColumnDefinition Width="Auto" />
+									<ColumnDefinition />
+									<ColumnDefinition  Width="Auto" />
+								</Grid.ColumnDefinitions>
+								<TextBlock Margin="7" Foreground="{TemplateBinding Foreground}" VerticalAlignment="Center" FontSize="18" Grid.Row="0"  Text="R" />
+								<TextBlock Margin="7" Foreground="{TemplateBinding Foreground}" VerticalAlignment="Center" FontSize="18" Grid.Row="1"  Text="G" />
+								<TextBlock Margin="7" Foreground="{TemplateBinding Foreground}" VerticalAlignment="Center"  FontSize="18" Grid.Row="2" Text="B" />
+								<Slider x:Name="PART_SlideRed" Value="33" StepFrequency=".2" Minimum="0" Maximum="255" Grid.Row="0" Grid.Column="1"  />
+								<Slider x:Name="PART_SlideGreen"  Value="33" StepFrequency=".2"  Minimum="0" Maximum="255" Grid.Row="1" Grid.Column="1"  />
+								<Slider x:Name="PART_SlideBlue"  Value="33" StepFrequency=".2"  Minimum="0" Maximum="255" Grid.Row="2" Grid.Column="1"  />
 
-							<Rectangle x:Name="PART_RectangleColor" Grid.Column="2" Stroke="White" StrokeThickness="1.5"  Grid.RowSpan="3" Height="80" Margin="10" Width="80" />
+								<Rectangle x:Name="PART_RectangleColor" Grid.Column="2" Stroke="White" StrokeThickness="1.5"  Grid.RowSpan="3" Height="80" Margin="10" Width="80" />
 
-							<GridView Width="{TemplateBinding ListWidth}" Height="{TemplateBinding ListHeight}" ScrollViewer.VerticalScrollMode="Enabled" ScrollViewer.HorizontalScrollMode="Disabled"  ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollBarVisibility="Disabled"  Grid.Row="3" Grid.ColumnSpan="3" x:Name="PART_List">
-								<GridView.ItemsPanel>
-									<ItemsPanelTemplate>
-										<runtime:WrapPanel Orientation="Horizontal" />
-									</ItemsPanelTemplate>
-								</GridView.ItemsPanel>
-								<GridView.ItemTemplate>
-									<DataTemplate>
+								<GridView Width="{TemplateBinding ListWidth}" Height="{TemplateBinding ListHeight}" ScrollViewer.VerticalScrollMode="Enabled" ScrollViewer.HorizontalScrollMode="Disabled"  ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollBarVisibility="Disabled"  Grid.Row="3" Grid.ColumnSpan="3" x:Name="PART_List">
+									<GridView.ItemsPanel>
+										<ItemsPanelTemplate>
+											<runtime:WrapPanel Orientation="Horizontal" />
+										</ItemsPanelTemplate>
+									</GridView.ItemsPanel>
+									<GridView.ItemTemplate>
+										<DataTemplate>
 
-										<Grid>
-										<Button Width="45" BorderBrush="White" BorderThickness=".7" Height="45" Background="Transparent" Margin="4" >
-										
-										<Button.Flyout>
-													<Flyout>
-														<Grid>
-															<TextBox x:Name="PART_Copy" IsReadOnly="True" Text="{Binding HtmlString}" />
-														</Grid>
-													</Flyout>
-												</Button.Flyout>
-										</Button>
-											<Rectangle ToolTipService.ToolTip="{Binding HtmlString}" Stroke="White" StrokeThickness="1.3" Width="20" Height="20">
-												<Rectangle.Fill>
-													<SolidColorBrush Color="{Binding Color}" />
-												</Rectangle.Fill>
+											<Grid>
+												<Button Width="45" BorderBrush="White" BorderThickness=".7" Height="45" Background="Transparent" Margin="4" >
 
-											</Rectangle>
-										</Grid>
-									</DataTemplate>
-								</GridView.ItemTemplate>
-								
-							</GridView>
+													<Button.Flyout>
+														<Flyout>
+															<Grid>
+																<TextBox x:Name="PART_Copy" IsReadOnly="True" Text="{Binding HtmlString}" />
+															</Grid>
+														</Flyout>
+													</Button.Flyout>
+												</Button>
+												<Rectangle ToolTipService.ToolTip="{Binding HtmlString}" Stroke="White" StrokeThickness="1.3" Width="20" Height="20">
+													<Rectangle.Fill>
+														<SolidColorBrush Color="{Binding Color}" />
+													</Rectangle.Fill>
 
-						</Grid>
+												</Rectangle>
+											</Grid>
+										</DataTemplate>
+									</GridView.ItemTemplate>
 
+								</GridView>
+
+							</Grid>
+					
 
 					</Border>
 
@@ -561,6 +544,7 @@
 			</Setter.Value>
 		</Setter>
 	</Style>
+
 
 
 

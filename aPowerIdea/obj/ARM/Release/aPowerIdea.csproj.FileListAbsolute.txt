@@ -159,10 +159,6 @@ C:\AMB\aSoftware\aCore\aPowerBox\aPowerIdea\obj\ARM\Release\qualifiers.txt
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerIdea\obj\ARM\Release\qualifiers.txt.intermediate
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerIdea\obj\ARM\Release\MultipleQualifiersPerDimensionFound.txt
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerIdea\obj\ARM\Release\ProjectArchitectures.txt
-C:\AMB\aSoftware\aCore\aPowerBox\aPowerIdea\obj\ARM\Release\ilc\in\System.Collections.Immutable.dll
-C:\AMB\aSoftware\aCore\aPowerBox\aPowerIdea\obj\ARM\Release\ilc\in\System.Numerics.Vectors.WindowsRuntime.dll
-C:\AMB\aSoftware\aCore\aPowerBox\aPowerIdea\obj\ARM\Release\ilc\in\System.Reflection.Metadata.dll
-C:\AMB\aSoftware\aCore\aPowerBox\aPowerIdea\obj\ARM\Release\ilc\in\System.Threading.Tasks.Dataflow.dll
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerIdea\bin\ARM\Release\Core\aPowerIdea.exe
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerIdea\bin\ARM\Release\Core\AppxManifest.xml
 C:\AMB\aSoftware\aCore\aPowerBox\aPowerIdea\bin\ARM\Release\System.Reflection.Emit.ILGeneration.dll

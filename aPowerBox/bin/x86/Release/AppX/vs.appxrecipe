@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>3E06130C096E7D9F79C756BC63C0139CDD32042D075408A285D648B9DB77F242</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>DD219EB275F0CEEBDB67EDA5A963EB4AABD859780B9F342589304CE3D577C9C7</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ae7194e7-4f8a-4ef0-abeb-00ae328fad84_1.0.0.0_x86__94jyxjaky19ar</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ae7194e7-4f8a-4ef0-abeb-00ae328fad84_94jyxjaky19ar!App</RegisteredUserModeAppID>
     <RegisteredPackageID>ae7194e7-4f8a-4ef0-abeb-00ae328fad84</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\bin\x86\Release\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-08T07:58:11.810</Modified>
+      <Modified>2017-04-03T14:52:08.439</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\bin\x86\Release\aPowerBox.exe">
       <PackagePath>entrypoint\aPowerBox.exe</PackagePath>
-      <Modified>2017-03-08T07:58:05.319</Modified>
+      <Modified>2017-04-03T12:37:57.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alxp2\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -494,11 +494,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\AMB\aSoftware\aCore\aPowerBox\AlbertFlex\bin\Release\AlbertFlex.dll">
       <PackagePath>AlbertFlex.dll</PackagePath>
-      <Modified>2017-03-07T18:14:02.501</Modified>
+      <Modified>2017-04-02T13:22:15.867</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\bin\x86\Release\AlbertRun.dll">
+    <AppxPackagedFile Include="C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\bin\Release\AlbertRun.dll">
       <PackagePath>AlbertRun.dll</PackagePath>
-      <Modified>2017-03-07T18:15:05.157</Modified>
+      <Modified>2017-04-03T12:37:47.147</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\Assets\appbar\about.png">
       <PackagePath>Assets\appbar\about.png</PackagePath>
@@ -1033,11 +1033,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\bin\x86\Release\aPowerBox.xr.xml">
       <PackagePath>aPowerBox.xr.xml</PackagePath>
-      <Modified>2017-03-08T07:39:45.294</Modified>
+      <Modified>2017-03-14T03:40:38.320</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\bin\x86\Release\AlbertRun.xr.xml">
+    <AppxPackagedFile Include="C:\AMB\aSoftware\aCore\aPowerBox\AlbertRun\bin\Release\AlbertRun.xr.xml">
       <PackagePath>AlbertRun\AlbertRun.xr.xml</PackagePath>
-      <Modified>2017-03-02T17:24:48.828</Modified>
+      <Modified>2017-03-14T03:31:03.793</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -1046,11 +1046,11 @@
     <AppxPackagedFile Include="C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\bin\x86\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-08T07:58:10.270</Modified>
+      <Modified>2017-04-03T14:51:58.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\AMB\aSoftware\aCore\aPowerBox\aPowerBox\bin\x86\Release\Core\aPowerBox.exe">
       <PackagePath>aPowerBox.exe</PackagePath>
-      <Modified>2017-03-08T07:58:11.790</Modified>
+      <Modified>2017-04-03T14:52:08.406</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

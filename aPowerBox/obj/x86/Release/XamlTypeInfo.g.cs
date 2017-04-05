@@ -188,37 +188,37 @@ namespace aPowerBox.aPowerBox_XamlTypeInfo
             _typeNameTable[28] = "Albert.Flex.Runtime.TextEdit";
             _typeNameTable[29] = "Windows.UI.Xaml.Controls.RichEditBox";
             _typeNameTable[30] = "Boolean";
-            _typeNameTable[31] = "aPowerBox.MainPage";
-            _typeNameTable[32] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[33] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[34] = "aPowerBox.View.BannerMaker";
-            _typeNameTable[35] = "Albert.Flex.Runtime.Page10x";
-            _typeNameTable[36] = "aPowerBox.View.CharacterLab";
-            _typeNameTable[37] = "aPowerBox.View.CharacterLab.SheetState";
-            _typeNameTable[38] = "System.Enum";
-            _typeNameTable[39] = "aPowerBox.View.LaunchHub";
-            _typeNameTable[40] = "aPowerBox.View.MainView";
-            _typeNameTable[41] = "aPowerBox.View.MapLab";
-            _typeNameTable[42] = "aPowerBox.View.PDfView";
-            _typeNameTable[43] = "aPowerBox.View.QuickNote";
-            _typeNameTable[44] = "Albert.Flex.Runtime.ColorPicker";
-            _typeNameTable[45] = "Windows.UI.Xaml.Controls.Grid";
-            _typeNameTable[46] = "Windows.UI.Xaml.Controls.Panel";
-            _typeNameTable[47] = "Windows.UI.Xaml.Media.SolidColorBrush";
-            _typeNameTable[48] = "aPowerBox.View.QuickTheme";
-            _typeNameTable[49] = "Albert.Flex.Runtime.SketchCanvas";
-            _typeNameTable[50] = "Windows.UI.Xaml.Controls.Canvas";
-            _typeNameTable[51] = "Albert.Flex.Runtime.SketchState";
-            _typeNameTable[52] = "Windows.UI.Xaml.Media.PenLineCap";
-            _typeNameTable[53] = "aPowerBox.View.SketchLab";
-            _typeNameTable[54] = "aPowerBox.View.StartView";
-            _typeNameTable[55] = "aPowerBox.View.StaticWeb";
-            _typeNameTable[56] = "aPowerBox.View.ThemeLab";
-            _typeNameTable[57] = "aPowerBox.View.WebBanner";
-            _typeNameTable[58] = "aPowerBox.View.WebDevLab";
-            _typeNameTable[59] = "aPowerBox.View.WPPlug";
-            _typeNameTable[60] = "aPowerBox.View.WPTheme";
-            _typeNameTable[61] = "aPowerBox.View.WriterLab";
+            _typeNameTable[31] = "aPowerBox.View.BannerMaker";
+            _typeNameTable[32] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[33] = "Albert.Flex.Runtime.Page10x";
+            _typeNameTable[34] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[35] = "aPowerBox.View.CharacterLab";
+            _typeNameTable[36] = "aPowerBox.View.CharacterLab.SheetState";
+            _typeNameTable[37] = "System.Enum";
+            _typeNameTable[38] = "aPowerBox.View.LaunchHub";
+            _typeNameTable[39] = "aPowerBox.View.MainView";
+            _typeNameTable[40] = "aPowerBox.View.MapLab";
+            _typeNameTable[41] = "aPowerBox.View.PDfView";
+            _typeNameTable[42] = "aPowerBox.View.QuickNote";
+            _typeNameTable[43] = "Albert.Flex.Runtime.ColorPicker";
+            _typeNameTable[44] = "Windows.UI.Xaml.Controls.Grid";
+            _typeNameTable[45] = "Windows.UI.Xaml.Controls.Panel";
+            _typeNameTable[46] = "Windows.UI.Xaml.Media.SolidColorBrush";
+            _typeNameTable[47] = "aPowerBox.View.QuickTheme";
+            _typeNameTable[48] = "Albert.Flex.Runtime.SketchCanvas";
+            _typeNameTable[49] = "Windows.UI.Xaml.Controls.Canvas";
+            _typeNameTable[50] = "Albert.Flex.Runtime.SketchState";
+            _typeNameTable[51] = "Windows.UI.Xaml.Media.PenLineCap";
+            _typeNameTable[52] = "aPowerBox.View.SketchLab";
+            _typeNameTable[53] = "aPowerBox.View.StartView";
+            _typeNameTable[54] = "aPowerBox.View.StaticWeb";
+            _typeNameTable[55] = "aPowerBox.View.ThemeLab";
+            _typeNameTable[56] = "aPowerBox.View.WebBanner";
+            _typeNameTable[57] = "aPowerBox.View.WPPlug";
+            _typeNameTable[58] = "aPowerBox.View.WPTheme";
+            _typeNameTable[59] = "aPowerBox.View.WebDevLab";
+            _typeNameTable[60] = "aPowerBox.View.WriterLab";
+            _typeNameTable[61] = "AMUwp.QuickTheme";
 
             _typeTable = new global::System.Type[62];
             _typeTable[0] = typeof(global::aPowerBox.PowerViewModel);
@@ -252,37 +252,37 @@ namespace aPowerBox.aPowerBox_XamlTypeInfo
             _typeTable[28] = typeof(global::Albert.Flex.Runtime.TextEdit);
             _typeTable[29] = typeof(global::Windows.UI.Xaml.Controls.RichEditBox);
             _typeTable[30] = typeof(global::System.Boolean);
-            _typeTable[31] = typeof(global::aPowerBox.MainPage);
-            _typeTable[32] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[33] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[34] = typeof(global::aPowerBox.View.BannerMaker);
-            _typeTable[35] = typeof(global::Albert.Flex.Runtime.Page10x);
-            _typeTable[36] = typeof(global::aPowerBox.View.CharacterLab);
-            _typeTable[37] = typeof(global::aPowerBox.View.CharacterLab.SheetState);
-            _typeTable[38] = typeof(global::System.Enum);
-            _typeTable[39] = typeof(global::aPowerBox.View.LaunchHub);
-            _typeTable[40] = typeof(global::aPowerBox.View.MainView);
-            _typeTable[41] = typeof(global::aPowerBox.View.MapLab);
-            _typeTable[42] = typeof(global::aPowerBox.View.PDfView);
-            _typeTable[43] = typeof(global::aPowerBox.View.QuickNote);
-            _typeTable[44] = typeof(global::Albert.Flex.Runtime.ColorPicker);
-            _typeTable[45] = typeof(global::Windows.UI.Xaml.Controls.Grid);
-            _typeTable[46] = typeof(global::Windows.UI.Xaml.Controls.Panel);
-            _typeTable[47] = typeof(global::Windows.UI.Xaml.Media.SolidColorBrush);
-            _typeTable[48] = typeof(global::aPowerBox.View.QuickTheme);
-            _typeTable[49] = typeof(global::Albert.Flex.Runtime.SketchCanvas);
-            _typeTable[50] = typeof(global::Windows.UI.Xaml.Controls.Canvas);
-            _typeTable[51] = typeof(global::Albert.Flex.Runtime.SketchState);
-            _typeTable[52] = typeof(global::Windows.UI.Xaml.Media.PenLineCap);
-            _typeTable[53] = typeof(global::aPowerBox.View.SketchLab);
-            _typeTable[54] = typeof(global::aPowerBox.View.StartView);
-            _typeTable[55] = typeof(global::aPowerBox.View.StaticWeb);
-            _typeTable[56] = typeof(global::aPowerBox.View.ThemeLab);
-            _typeTable[57] = typeof(global::aPowerBox.View.WebBanner);
-            _typeTable[58] = typeof(global::aPowerBox.View.WebDevLab);
-            _typeTable[59] = typeof(global::aPowerBox.View.WPPlug);
-            _typeTable[60] = typeof(global::aPowerBox.View.WPTheme);
-            _typeTable[61] = typeof(global::aPowerBox.View.WriterLab);
+            _typeTable[31] = typeof(global::aPowerBox.View.BannerMaker);
+            _typeTable[32] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[33] = typeof(global::Albert.Flex.Runtime.Page10x);
+            _typeTable[34] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[35] = typeof(global::aPowerBox.View.CharacterLab);
+            _typeTable[36] = typeof(global::aPowerBox.View.CharacterLab.SheetState);
+            _typeTable[37] = typeof(global::System.Enum);
+            _typeTable[38] = typeof(global::aPowerBox.View.LaunchHub);
+            _typeTable[39] = typeof(global::aPowerBox.View.MainView);
+            _typeTable[40] = typeof(global::aPowerBox.View.MapLab);
+            _typeTable[41] = typeof(global::aPowerBox.View.PDfView);
+            _typeTable[42] = typeof(global::aPowerBox.View.QuickNote);
+            _typeTable[43] = typeof(global::Albert.Flex.Runtime.ColorPicker);
+            _typeTable[44] = typeof(global::Windows.UI.Xaml.Controls.Grid);
+            _typeTable[45] = typeof(global::Windows.UI.Xaml.Controls.Panel);
+            _typeTable[46] = typeof(global::Windows.UI.Xaml.Media.SolidColorBrush);
+            _typeTable[47] = typeof(global::aPowerBox.View.QuickTheme);
+            _typeTable[48] = typeof(global::Albert.Flex.Runtime.SketchCanvas);
+            _typeTable[49] = typeof(global::Windows.UI.Xaml.Controls.Canvas);
+            _typeTable[50] = typeof(global::Albert.Flex.Runtime.SketchState);
+            _typeTable[51] = typeof(global::Windows.UI.Xaml.Media.PenLineCap);
+            _typeTable[52] = typeof(global::aPowerBox.View.SketchLab);
+            _typeTable[53] = typeof(global::aPowerBox.View.StartView);
+            _typeTable[54] = typeof(global::aPowerBox.View.StaticWeb);
+            _typeTable[55] = typeof(global::aPowerBox.View.ThemeLab);
+            _typeTable[56] = typeof(global::aPowerBox.View.WebBanner);
+            _typeTable[57] = typeof(global::aPowerBox.View.WPPlug);
+            _typeTable[58] = typeof(global::aPowerBox.View.WPTheme);
+            _typeTable[59] = typeof(global::aPowerBox.View.WebDevLab);
+            _typeTable[60] = typeof(global::aPowerBox.View.WriterLab);
+            _typeTable[61] = typeof(global::AMUwp.QuickTheme);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -324,27 +324,27 @@ namespace aPowerBox.aPowerBox_XamlTypeInfo
         private object Activate_20_OptionButton() { return new global::Albert.Flex.Runtime.OptionButton(); }
         private object Activate_26_HamburgerButton() { return new global::Albert.Flex.Runtime.HamburgerButton(); }
         private object Activate_28_TextEdit() { return new global::Albert.Flex.Runtime.TextEdit(); }
-        private object Activate_31_MainPage() { return new global::aPowerBox.MainPage(); }
-        private object Activate_34_BannerMaker() { return new global::aPowerBox.View.BannerMaker(); }
-        private object Activate_35_Page10x() { return new global::Albert.Flex.Runtime.Page10x(); }
-        private object Activate_36_CharacterLab() { return new global::aPowerBox.View.CharacterLab(); }
-        private object Activate_39_LaunchHub() { return new global::aPowerBox.View.LaunchHub(); }
-        private object Activate_40_MainView() { return new global::aPowerBox.View.MainView(); }
-        private object Activate_41_MapLab() { return new global::aPowerBox.View.MapLab(); }
-        private object Activate_42_PDfView() { return new global::aPowerBox.View.PDfView(); }
-        private object Activate_43_QuickNote() { return new global::aPowerBox.View.QuickNote(); }
-        private object Activate_44_ColorPicker() { return new global::Albert.Flex.Runtime.ColorPicker(); }
-        private object Activate_48_QuickTheme() { return new global::aPowerBox.View.QuickTheme(); }
-        private object Activate_49_SketchCanvas() { return new global::Albert.Flex.Runtime.SketchCanvas(); }
-        private object Activate_53_SketchLab() { return new global::aPowerBox.View.SketchLab(); }
-        private object Activate_54_StartView() { return new global::aPowerBox.View.StartView(); }
-        private object Activate_55_StaticWeb() { return new global::aPowerBox.View.StaticWeb(); }
-        private object Activate_56_ThemeLab() { return new global::aPowerBox.View.ThemeLab(); }
-        private object Activate_57_WebBanner() { return new global::aPowerBox.View.WebBanner(); }
-        private object Activate_58_WebDevLab() { return new global::aPowerBox.View.WebDevLab(); }
-        private object Activate_59_WPPlug() { return new global::aPowerBox.View.WPPlug(); }
-        private object Activate_60_WPTheme() { return new global::aPowerBox.View.WPTheme(); }
-        private object Activate_61_WriterLab() { return new global::aPowerBox.View.WriterLab(); }
+        private object Activate_31_BannerMaker() { return new global::aPowerBox.View.BannerMaker(); }
+        private object Activate_33_Page10x() { return new global::Albert.Flex.Runtime.Page10x(); }
+        private object Activate_35_CharacterLab() { return new global::aPowerBox.View.CharacterLab(); }
+        private object Activate_38_LaunchHub() { return new global::aPowerBox.View.LaunchHub(); }
+        private object Activate_39_MainView() { return new global::aPowerBox.View.MainView(); }
+        private object Activate_40_MapLab() { return new global::aPowerBox.View.MapLab(); }
+        private object Activate_41_PDfView() { return new global::aPowerBox.View.PDfView(); }
+        private object Activate_42_QuickNote() { return new global::aPowerBox.View.QuickNote(); }
+        private object Activate_43_ColorPicker() { return new global::Albert.Flex.Runtime.ColorPicker(); }
+        private object Activate_47_QuickTheme() { return new global::aPowerBox.View.QuickTheme(); }
+        private object Activate_48_SketchCanvas() { return new global::Albert.Flex.Runtime.SketchCanvas(); }
+        private object Activate_52_SketchLab() { return new global::aPowerBox.View.SketchLab(); }
+        private object Activate_53_StartView() { return new global::aPowerBox.View.StartView(); }
+        private object Activate_54_StaticWeb() { return new global::aPowerBox.View.StaticWeb(); }
+        private object Activate_55_ThemeLab() { return new global::aPowerBox.View.ThemeLab(); }
+        private object Activate_56_WebBanner() { return new global::aPowerBox.View.WebBanner(); }
+        private object Activate_57_WPPlug() { return new global::aPowerBox.View.WPPlug(); }
+        private object Activate_58_WPTheme() { return new global::aPowerBox.View.WPTheme(); }
+        private object Activate_59_WebDevLab() { return new global::aPowerBox.View.WebDevLab(); }
+        private object Activate_60_WriterLab() { return new global::aPowerBox.View.WriterLab(); }
+        private object Activate_61_QuickTheme() { return new global::AMUwp.QuickTheme(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -541,43 +541,36 @@ namespace aPowerBox.aPowerBox_XamlTypeInfo
                 xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 31:   //  aPowerBox.MainPage
-                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_31_MainPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 32:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 33:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 34:   //  aPowerBox.View.BannerMaker
+            case 31:   //  aPowerBox.View.BannerMaker
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_34_BannerMaker;
+                userType.Activator = Activate_31_BannerMaker;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 35:   //  Albert.Flex.Runtime.Page10x
+            case 32:   //  Windows.UI.Xaml.Controls.UserControl
+                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 33:   //  Albert.Flex.Runtime.Page10x
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_35_Page10x;
+                userType.Activator = Activate_33_Page10x;
                 xamlType = userType;
                 break;
 
-            case 36:   //  aPowerBox.View.CharacterLab
+            case 34:   //  Windows.UI.Xaml.Controls.Page
+                xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 35:   //  aPowerBox.View.CharacterLab
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Albert.Flex.Runtime.Page10x"));
-                userType.Activator = Activate_36_CharacterLab;
+                userType.Activator = Activate_35_CharacterLab;
                 userType.AddMemberName("State");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 37:   //  aPowerBox.View.CharacterLab.SheetState
+            case 36:   //  aPowerBox.View.CharacterLab.SheetState
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("All", global::aPowerBox.View.CharacterLab.SheetState.All);
                 userType.AddEnumValue("FrontBack", global::aPowerBox.View.CharacterLab.SheetState.FrontBack);
@@ -590,49 +583,49 @@ namespace aPowerBox.aPowerBox_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 38:   //  System.Enum
+            case 37:   //  System.Enum
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 xamlType = userType;
                 break;
 
-            case 39:   //  aPowerBox.View.LaunchHub
+            case 38:   //  aPowerBox.View.LaunchHub
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_39_LaunchHub;
+                userType.Activator = Activate_38_LaunchHub;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 40:   //  aPowerBox.View.MainView
+            case 39:   //  aPowerBox.View.MainView
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Albert.Flex.Runtime.Page10x"));
-                userType.Activator = Activate_40_MainView;
+                userType.Activator = Activate_39_MainView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 41:   //  aPowerBox.View.MapLab
-                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_41_MapLab;
+            case 40:   //  aPowerBox.View.MapLab
+                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Albert.Flex.Runtime.Page10x"));
+                userType.Activator = Activate_40_MapLab;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 42:   //  aPowerBox.View.PDfView
-                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_42_PDfView;
+            case 41:   //  aPowerBox.View.PDfView
+                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Albert.Flex.Runtime.Page10x"));
+                userType.Activator = Activate_41_PDfView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 43:   //  aPowerBox.View.QuickNote
+            case 42:   //  aPowerBox.View.QuickNote
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_43_QuickNote;
+                userType.Activator = Activate_42_QuickNote;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 44:   //  Albert.Flex.Runtime.ColorPicker
+            case 43:   //  Albert.Flex.Runtime.ColorPicker
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Grid"));
-                userType.Activator = Activate_44_ColorPicker;
+                userType.Activator = Activate_43_ColorPicker;
                 userType.AddMemberName("SpectrePointerColor");
                 userType.AddMemberName("Color");
                 userType.AddMemberName("Brush");
@@ -641,28 +634,28 @@ namespace aPowerBox.aPowerBox_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 45:   //  Windows.UI.Xaml.Controls.Grid
+            case 44:   //  Windows.UI.Xaml.Controls.Grid
                 xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 46:   //  Windows.UI.Xaml.Controls.Panel
+            case 45:   //  Windows.UI.Xaml.Controls.Panel
                 xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 47:   //  Windows.UI.Xaml.Media.SolidColorBrush
+            case 46:   //  Windows.UI.Xaml.Media.SolidColorBrush
                 xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 48:   //  aPowerBox.View.QuickTheme
+            case 47:   //  aPowerBox.View.QuickTheme
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_48_QuickTheme;
+                userType.Activator = Activate_47_QuickTheme;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 49:   //  Albert.Flex.Runtime.SketchCanvas
+            case 48:   //  Albert.Flex.Runtime.SketchCanvas
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Canvas"));
-                userType.Activator = Activate_49_SketchCanvas;
+                userType.Activator = Activate_48_SketchCanvas;
                 userType.AddMemberName("SketchState");
                 userType.AddMemberName("DrawBrush");
                 userType.AddMemberName("DrawThickness");
@@ -672,11 +665,11 @@ namespace aPowerBox.aPowerBox_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 50:   //  Windows.UI.Xaml.Controls.Canvas
+            case 49:   //  Windows.UI.Xaml.Controls.Canvas
                 xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 51:   //  Albert.Flex.Runtime.SketchState
+            case 50:   //  Albert.Flex.Runtime.SketchState
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Draw", global::Albert.Flex.Runtime.SketchState.Draw);
                 userType.AddEnumValue("Line", global::Albert.Flex.Runtime.SketchState.Line);
@@ -689,69 +682,76 @@ namespace aPowerBox.aPowerBox_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 52:   //  Windows.UI.Xaml.Media.PenLineCap
+            case 51:   //  Windows.UI.Xaml.Media.PenLineCap
                 xamlType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 53:   //  aPowerBox.View.SketchLab
+            case 52:   //  aPowerBox.View.SketchLab
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Albert.Flex.Runtime.Page10x"));
-                userType.Activator = Activate_53_SketchLab;
+                userType.Activator = Activate_52_SketchLab;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 54:   //  aPowerBox.View.StartView
+            case 53:   //  aPowerBox.View.StartView
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Albert.Flex.Runtime.Page10x"));
-                userType.Activator = Activate_54_StartView;
+                userType.Activator = Activate_53_StartView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 55:   //  aPowerBox.View.StaticWeb
+            case 54:   //  aPowerBox.View.StaticWeb
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_55_StaticWeb;
+                userType.Activator = Activate_54_StaticWeb;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 56:   //  aPowerBox.View.ThemeLab
+            case 55:   //  aPowerBox.View.ThemeLab
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_56_ThemeLab;
+                userType.Activator = Activate_55_ThemeLab;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 57:   //  aPowerBox.View.WebBanner
+            case 56:   //  aPowerBox.View.WebBanner
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_57_WebBanner;
+                userType.Activator = Activate_56_WebBanner;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 58:   //  aPowerBox.View.WebDevLab
+            case 57:   //  aPowerBox.View.WPPlug
+                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_57_WPPlug;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 58:   //  aPowerBox.View.WPTheme
+                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_58_WPTheme;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 59:   //  aPowerBox.View.WebDevLab
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_58_WebDevLab;
+                userType.Activator = Activate_59_WebDevLab;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 59:   //  aPowerBox.View.WPPlug
+            case 60:   //  aPowerBox.View.WriterLab
+                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Albert.Flex.Runtime.Page10x"));
+                userType.Activator = Activate_60_WriterLab;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 61:   //  AMUwp.QuickTheme
                 userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_59_WPPlug;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 60:   //  aPowerBox.View.WPTheme
-                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_60_WPTheme;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 61:   //  aPowerBox.View.WriterLab
-                userType = new global::aPowerBox.aPowerBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_61_WriterLab;
+                userType.Activator = Activate_61_QuickTheme;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

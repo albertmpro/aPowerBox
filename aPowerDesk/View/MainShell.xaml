@@ -1,0 +1,47 @@
+﻿<c:ViewShell x:Class="aPowerDesk.View.MainShell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:c="clr-namespace:Albert.Flex.Windows;assembly=AlbertWin"
+        xmlns:local="clr-namespace:aPowerDesk"
+        mc:Ignorable="d" Icon="/Assets/aPowerDesk.png"
+        Title="aPowerDesk" Height="600" Width="960">
+	<Grid x:Name="layoutRoot"  Background="{StaticResource AccentBrush4}">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="auto" />
+			<RowDefinition />
+			<RowDefinition Height="30" />
+		</Grid.RowDefinitions>
+		<Menu>
+			<MenuItem Header="File">
+				<MenuItem Header="New" Command="New" ></MenuItem>
+				<MenuItem Header="Open" Command="Open" ></MenuItem>
+				<MenuItem Header="Save" Command="Save" ></MenuItem>
+				<MenuItem Header="Save As" Command="c:DesktopCommands.SaveAs" ></MenuItem>
+				<Separator />
+				<MenuItem Header="Quit" Command="c:DesktopCommands.Quit" ></MenuItem>
+			</MenuItem>
+			<MenuItem Header="Edit">
+				<MenuItem Header="Cut" Command="Cut" ></MenuItem>
+				<MenuItem Header="Copy" Command="Copy" ></MenuItem>
+				<MenuItem Header="Paste" Command="Paste" ></MenuItem>
+				<MenuItem Header="Select All" Command="SelectAll" ></MenuItem>
+			</MenuItem>
+			<MenuItem Header="Tools">
+
+			</MenuItem>
+			<MenuItem Header="Help">
+
+			</MenuItem>
+		</Menu>
+		<!-- Frame -->
+		<Frame Grid.Row="1" x:Name="frame" />
+		
+		<!-- StatusBar -->
+		<StatusBar Grid.Row="2" x:Name="statusBar">
+			<TextBlock FontWeight="Medium" Text="Status: " />
+		</StatusBar>
+
+	</Grid>
+</c:ViewShell>

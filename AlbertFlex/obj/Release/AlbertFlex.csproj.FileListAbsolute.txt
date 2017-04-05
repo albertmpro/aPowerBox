@@ -10,6 +10,6 @@ C:\AMB\aSoftware\aCore\aFlexCore\AlbertFlex\obj\Release\AlbertFlex.pdb
 C:\AMB\aSoftware\aCore\aFlexCore\AlbertFlex\obj\Release\AlbertFlex.csprojResolveAssemblyReference.cache
 C:\AMB\aSoftware\aCore\aPowerBox\AlbertFlex\bin\Release\AlbertFlex.dll
 C:\AMB\aSoftware\aCore\aPowerBox\AlbertFlex\bin\Release\AlbertFlex.pdb
-C:\AMB\aSoftware\aCore\aPowerBox\AlbertFlex\obj\Release\AlbertFlex.csprojResolveAssemblyReference.cache
 C:\AMB\aSoftware\aCore\aPowerBox\AlbertFlex\obj\Release\AlbertFlex.dll
 C:\AMB\aSoftware\aCore\aPowerBox\AlbertFlex\obj\Release\AlbertFlex.pdb
+C:\AMB\aSoftware\aCore\aPowerBox\AlbertFlex\obj\Release\AlbertFlex.csprojResolveAssemblyReference.cache
